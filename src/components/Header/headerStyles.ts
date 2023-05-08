@@ -8,6 +8,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   height: 80px;
   background-color: #6edab9;
+	z-index: 1;
 `
 
 export const HeaderButton = styled.div`

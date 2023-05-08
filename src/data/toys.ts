@@ -1,8 +1,11 @@
+import alfaRomeo147 from '../assets/pictures/toys/alfa-romeo-147.JPG'
+import amoF15 from '../assets/pictures/toys/amo-f-15.JPG'
+
 export const toys = [
 	{
 		id: 1,
 		name: 'ВАЗ 2101',
-		imgFileName: '',
+		imgFileName: alfaRomeo147,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 10,
@@ -11,7 +14,7 @@ export const toys = [
 	{
 		id: 2,
 		name: 'ВАЗ 21011',
-		imgFileName: '',
+		imgFileName: amoF15,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 20,

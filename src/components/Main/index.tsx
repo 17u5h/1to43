@@ -1,17 +1,16 @@
 import React from 'react';
-import pic1 from '../../assets/pictures/toys/alfa-romeo-147.JPG'
 import {toys} from "../../data/toys";
+import Card from "./Card";
+import * as S from "./mainStyles";
 
 const Main = () => {
 
 	return (
-		<>
+		<S.CardContainer>
 		{toys.map(el => (
-				<div style={{width: '300px', height: '300px'}}>
-					<img src={pic1} alt='pic' style={{objectFit: 'contain', width: '100%'}}/>
-				</div>
+			el.imgFileName ? <Card key={el.id} name={el.name} imgFileName={el.imgFileName}/> : <div></div>
 		))}
-		</>
+		</S.CardContainer>
 	);
 };
 
