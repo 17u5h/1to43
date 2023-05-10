@@ -1,5 +1,5 @@
 
-export type Card = {
+export type Car = {
 	id?: number
 	name?: string
 	imgFileName?: string

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
+	position: relative;
   width: 333px;
   height: 332px;
   border: 1px solid #ddd;
@@ -10,6 +11,16 @@ export const Card = styled.div`
   &:hover {
     transform: scale(1.02);
   }
+`
+export const CardTitle = styled.div`
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	top: 4px;
+	left: 10px;
+	font-size: 28px;
+	color: #999;
 `
 
 export const CardContainer = styled.div`

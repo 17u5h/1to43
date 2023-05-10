@@ -1,11 +1,192 @@
 import alfaRomeo147 from '../assets/pictures/toys/alfa-romeo-147.JPG'
 import amoF15 from '../assets/pictures/toys/amo-f-15.JPG'
+import aurusSenat from '../assets/pictures/toys/aurus-senat.JPG'
+import ferrari2002 from '../assets/pictures/toys/ferrari-2002.JPG'
+import fiat238 from '../assets/pictures/toys/fiat-238.JPG'
+import fordKa from '../assets/pictures/toys/ford-ka.JPG'
+import gaz1173 from '../assets/pictures/toys/gaz-11-73.JPG'
+import gaz13 from '../assets/pictures/toys/gaz-13.JPG'
+import gaz14 from '../assets/pictures/toys/gaz-14.JPG'
+import gaz21i from '../assets/pictures/toys/gaz-21i.JPG'
+import gaz21r from '../assets/pictures/toys/gaz-21r.JPG'
+import gaz22 from '../assets/pictures/toys/gaz-22.JPG'
+import gaz24 from '../assets/pictures/toys/gaz-24.JPG'
+import gaz2402 from '../assets/pictures/toys/gaz-24-02.JPG'
+import gaz2402y from '../assets/pictures/toys/gaz-24-02-escort.JPG'
+import gaz2410 from '../assets/pictures/toys/gaz-24-10.JPG'
+import gaz2412 from '../assets/pictures/toys/gaz-24-12.JPG'
+import gaz2495 from '../assets/pictures/toys/gaz-24-95.jpg'
+import gaz51carm from '../assets/pictures/toys/gaz-51-carm.JPG'
+import gaz51a from '../assets/pictures/toys/gaz-51a.JPG'
+import gaz55 from '../assets/pictures/toys/gaz-55.JPG'
+import gaz63 from '../assets/pictures/toys/gaz-63.JPG'
+import gaz69 from '../assets/pictures/toys/gaz-69.JPG'
+import gaz2752 from '../assets/pictures/toys/gaz-2752.JPG'
+import gaz3102 from '../assets/pictures/toys/gaz-3102.JPG'
+import gaz3105 from '../assets/pictures/toys/gaz-3105.JPG'
+import gaz3110 from '../assets/pictures/toys/gaz-3110.JPG'
+import gaz3111 from '../assets/pictures/toys/gaz-3111.JPG'
+import gaz3221 from '../assets/pictures/toys/gaz-3221.JPG'
+import gaz3302 from '../assets/pictures/toys/gaz-3302.JPG'
+import gaz3307 from '../assets/pictures/toys/gaz-3307.JPG'
+import gazAA from '../assets/pictures/toys/gaz-aa.JPG'
+import gazM20v from '../assets/pictures/toys/gaz-m20v.JPG'
+import gazM72 from '../assets/pictures/toys/gaz-m72.JPG'
+import gazM415 from '../assets/pictures/toys/gaz-m415.JPG'
+import gazM1 from '../assets/pictures/toys/gaz-m1.JPG'
+import hummer2 from '../assets/pictures/toys/hummer-2.JPG'
+import ikarus280 from '../assets/pictures/toys/ikarus-280.JPG'
+import izh2126 from '../assets/pictures/toys/izh-2126.JPG'
+import izh2715 from '../assets/pictures/toys/izh-2715.JPG'
+import izh271501 from '../assets/pictures/toys/izh-2715-01.JPG'
+import jaguarEType from '../assets/pictures/toys/jaguar-e-type.JPG'
+import jaguarMk2 from '../assets/pictures/toys/jaguar-mk-2.JPG'
+import ju87 from '../assets/pictures/toys/ju-87.JPG'
+import k700 from '../assets/pictures/toys/k-700.JPG'
+import kamaz4310 from '../assets/pictures/toys/kamaz-4310.JPG'
+import kamaz5490 from '../assets/pictures/toys/kamaz-5490.JPG'
+import kamaz43118 from '../assets/pictures/toys/kamaz-43118.JPG'
+import kamaz43509 from '../assets/pictures/toys/kamaz-43509.JPG'
+import kamaz44108 from '../assets/pictures/toys/kamaz-44108.JPG'
+import kamaz49252 from '../assets/pictures/toys/kamaz-49252.JPG'
+import kaz601 from '../assets/pictures/toys/kaz-601.JPG'
+import kaz608v from '../assets/pictures/toys/kaz-608v.JPG'
+import kim1050 from '../assets/pictures/toys/kim-10-50.JPG'
+import kim1051 from '../assets/pictures/toys/kim-10-51.JPG'
+import kraz256b from '../assets/pictures/toys/kraz-256b.JPG'
+import kraz6510 from '../assets/pictures/toys/kraz-6510.JPG'
+import ladaVestaSwCross from '../assets/pictures/toys/lada-vesta-sw-cross.JPG'
+import lamborghiniCountach from '../assets/pictures/toys/lamborghini-countach.JPG'
+import liaz677m from '../assets/pictures/toys/liaz-677m.JPG'
+import lincolnTowncarLimo from '../assets/pictures/toys/lincoln-towncar-limo.JPG'
+import luaz969 from '../assets/pictures/toys/luaz-969.JPG'
+import luaz969m from '../assets/pictures/toys/luaz-969m.JPG'
+import maz205ac30 from '../assets/pictures/toys/maz-205-ac-30.JPG'
+import maz6422 from '../assets/pictures/toys/maz-6422.JPG'
+import mcLarenMp1988 from '../assets/pictures/toys/mclaren-mp-1988.JPG'
+import mercedes203 from '../assets/pictures/toys/mercedes-203.JPG'
+import mercedes300SL from '../assets/pictures/toys/mercedes-300sl.JPG'
+import mercedes463 from '../assets/pictures/toys/mercedes-463.JPG'
+import mercedes500SL from '../assets/pictures/toys/mercedes-500sl.JPG'
+import mercedesCLKGTR from '../assets/pictures/toys/mercedes-clk-gtr.JPG'
+import mercedesL4500f from '../assets/pictures/toys/mercedes-l4500f.JPG'
+import mercedesUnimog from '../assets/pictures/toys/mercedes-unimog.JPG'
+import miniCooper from '../assets/pictures/toys/mini-cooper.JPG'
+import miniCooperNew from '../assets/pictures/toys/mini-cooper-new.JPG'
+import miniCooperVan from '../assets/pictures/toys/mini-van.jpg'
+import mitsubishiA6M2A from '../assets/pictures/toys/mitsubishi-a6m2a.JPG'
+import mitsubishiEvolution6 from '../assets/pictures/toys/mitsubishi-evolution-6-race.JPG'
+import moskvitch400 from '../assets/pictures/toys/moskvich-400.JPG'
+import moskvitch400420orud from '../assets/pictures/toys/moskvich-400-420-orud.JPG'
+import moskvitch402 from '../assets/pictures/toys/moskvich-402.JPG'
+import moskvitch403 from '../assets/pictures/toys/moskvich-403.JPG'
+import moskvitch408 from '../assets/pictures/toys/moskvich-408.JPG'
+import moskvitch408e from '../assets/pictures/toys/moskvich-408e.JPG'
+import moskvitch410 from '../assets/pictures/toys/moskvich-410.JPG'
+import moskvitch412 from '../assets/pictures/toys/moskvich-412.JPG'
+import moskvitch423n from '../assets/pictures/toys/moskvich-423n.JPG'
+import moskvitch427 from '../assets/pictures/toys/moskvich-427.JPG'
+import moskvitch434 from '../assets/pictures/toys/moskvich-434.JPG'
+import moskvitch2140 from '../assets/pictures/toys/moskvich-2140.JPG'
+import moskvitch2141 from '../assets/pictures/toys/moskvich-2141.JPG'
+import moskvitch2143 from '../assets/pictures/toys/moskvich-2143.JPG'
+import moskvitch2144 from '../assets/pictures/toys/moskvich-2144.JPG'
+import moskvitch2335 from '../assets/pictures/toys/moskvich-2335.JPG'
+import moskvitch21251 from '../assets/pictures/toys/moskvich-21251.JPG'
+import moskvitchS1 from '../assets/pictures/toys/moskvich-s-1.JPG'
+import nami050 from '../assets/pictures/toys/nami-050.JPG'
+import paz672 from '../assets/pictures/toys/paz-672.JPG'
+import paz3205 from '../assets/pictures/toys/paz-3205.JPG'
+import peugeot404 from '../assets/pictures/toys/peugeot-404.JPG'
+import porscheCayenne from '../assets/pictures/toys/porsche-cayenne.JPG'
+import raf977d from '../assets/pictures/toys/raf-977d.JPG'
+import raf977dm from '../assets/pictures/toys/raf-977dm.JPG'
+import raf2203 from '../assets/pictures/toys/raf-2203.JPG'
+import renaultTrafic from '../assets/pictures/toys/renault-trafic.JPG'
+import smzS3A from '../assets/pictures/toys/smz-s3a.JPG'
+import smzS3d from '../assets/pictures/toys/smz-s3d.JPG'
+import subaruImprezaGendarme from '../assets/pictures/toys/subaru-impreza-gendarme.JPG'
+import uaz452 from '../assets/pictures/toys/uaz-452.JPG'
+import uaz469 from '../assets/pictures/toys/uaz-469.JPG'
+import uazHunter from '../assets/pictures/toys/uaz-hunter.JPG'
+import ural44202 from '../assets/pictures/toys/ural-44202.JPG'
+import vaz1111 from '../assets/pictures/toys/vaz-1111.JPG'
+import vaz1118 from '../assets/pictures/toys/vaz-1118.JPG'
+import vaz2101 from '../assets/pictures/toys/vaz-2101.JPG'
+import vaz2102 from '../assets/pictures/toys/vaz-2102.JPG'
+import vaz2103 from '../assets/pictures/toys/vaz-2103.JPG'
+import vaz2104 from '../assets/pictures/toys/vaz-2104.JPG'
+import vaz2105 from '../assets/pictures/toys/vaz-2105.JPG'
+import vaz2106 from '../assets/pictures/toys/vaz-2106.JPG'
+import vaz2107 from '../assets/pictures/toys/vaz-2107.JPG'
+import vaz2108 from '../assets/pictures/toys/vaz-2108.JPG'
+import vaz2109 from '../assets/pictures/toys/vaz-2109.JPG'
+import vaz2112 from '../assets/pictures/toys/vaz-2112.JPG'
+import vaz2114 from '../assets/pictures/toys/vaz-2114.JPG'
+import vaz2115 from '../assets/pictures/toys/vaz-2115.JPG'
+import vaz2121 from '../assets/pictures/toys/vaz-2121.JPG'
+import vaz2123 from '../assets/pictures/toys/vaz-2123.JPG'
+import vaz21011 from '../assets/pictures/toys/vaz-21011.JPG'
+import vaz21099 from '../assets/pictures/toys/vaz-21099.JPG'
+import volkswagenGolf from '../assets/pictures/toys/volkswagen-golf.JPG'
+import volkswagenNewBeetle from '../assets/pictures/toys/volkswagen-new-beetle.JPG'
+import volkswagenPolo from '../assets/pictures/toys/volkswagen-polo.JPG'
+import chanceVoughtCorsair from '../assets/pictures/toys/vought-corsair.JPG'
+import yak3 from '../assets/pictures/toys/yak-3.JPG'
+import zaz965 from '../assets/pictures/toys/zaz-965.JPG'
+import zaz968A from '../assets/pictures/toys/zaz-968a.JPG'
+import zaz968M from '../assets/pictures/toys/zaz-968m.JPG'
+import zaz1102 from '../assets/pictures/toys/zaz-1102.JPG'
+import zil111 from '../assets/pictures/toys/zil-111.JPG'
+import zil111gd from '../assets/pictures/toys/zil-111gd.JPG'
+import zil114 from '../assets/pictures/toys/zil-114.JPG'
+import zil130ap3 from '../assets/pictures/toys/zil-130-ap-3.jpg'
+import zil131pns110 from '../assets/pictures/toys/zil-131-pns-110.JPG'
+import zil131ump350 from '../assets/pictures/toys/zil-131-ump-350.JPG'
+import zil157 from '../assets/pictures/toys/zil-157.JPG'
+import zil157ar2 from '../assets/pictures/toys/zil-157-ar-2.JPG'
+import zil4102 from '../assets/pictures/toys/zil-4102.JPG'
+import zil4333 from '../assets/pictures/toys/zil-4333.JPG'
+import zil5301 from '../assets/pictures/toys/zil-5301.JPG'
+import zil41045 from '../assets/pictures/toys/zil-41045.jpg'
+import zil41047 from '../assets/pictures/toys/zil-41047.JPG'
+import zilMmz555 from '../assets/pictures/toys/zil-mmz-555.JPG'
+import zis11pmz1 from '../assets/pictures/toys/zis-11-pmz-1.jpg'
+import zis101 from '../assets/pictures/toys/zis-101.JPG'
+import zis102 from '../assets/pictures/toys/zis-102.JPG'
+import zis110 from '../assets/pictures/toys/zis-110.JPG'
+import zukA07 from '../assets/pictures/toys/zuk-a-07.JPG'
+import maz503a from '../assets/pictures/toys/maz-503a.JPG'
+import ladaPriora from '../assets/pictures/toys/lada-priora.jpg'
+import gaz31105 from '../assets/pictures/toys/gaz-31105.jpg'
+import zaz11055 from '../assets/pictures/toys/zaz-11055.jpg'
+import uaz3741 from '../assets/pictures/toys/uaz-3741.jpg'
+import gaz64 from '../assets/pictures/toys/gaz-64.jpg'
+import me262 from '../assets/pictures/toys/me-262.jpg'
+import mtz1 from '../assets/pictures/toys/mtz-1.jpg'
+import mtz2 from '../assets/pictures/toys/mtz-2.jpg'
+import mtz82 from '../assets/pictures/toys/mtz-82.jpg'
+import kraz255v from '../assets/pictures/toys/kraz-255v.jpg'
+import ural375d from '../assets/pictures/toys/ural-375d.jpg'
+import estonia21 from '../assets/pictures/toys/estonia-21.jpg'
+import datsun240z from '../assets/pictures/toys/datsun-240z.jpg'
+import gaz0330 from '../assets/pictures/toys/gaz-03-30.jpg'
+import bmwIsetta from '../assets/pictures/toys/bmw-isetta.jpg'
+import mercedes540k from '../assets/pictures/toys/mercedes-540k.jpg'
+import mercedesSLR from '../assets/pictures/toys/mercedes-slr.jpg'
+import mercedesSLS from '../assets/pictures/toys/mercedes-sls.jpg'
+import kiaK7 from '../assets/pictures/toys/kia-k7.jpg'
+import detomasoPantera from '../assets/pictures/toys/detomaso-pantera.jpg'
+import lotusEsprit from '../assets/pictures/toys/lotus-esprit.jpg'
+import lexusLX570 from '../assets/pictures/toys/lexus-lx570.jpg'
+import kv85 from '../assets/pictures/toys/kv-85.jpg'
+import t72b from '../assets/pictures/toys/t-72b.jpg'
 
 export const toys = [
 	{
 		id: 1,
 		name: 'ВАЗ 2101',
-		imgFileName: alfaRomeo147,
+		imgFileName: vaz2101,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 10,
@@ -14,7 +195,7 @@ export const toys = [
 	{
 		id: 2,
 		name: 'ВАЗ 21011',
-		imgFileName: amoF15,
+		imgFileName: vaz21011,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 20,
@@ -23,7 +204,7 @@ export const toys = [
 	{
 		id: 3,
 		name: 'ВАЗ 2102',
-		imgFileName: '',
+		imgFileName: vaz2102,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 30,
@@ -32,7 +213,7 @@ export const toys = [
 	{
 		id: 4,
 		name: 'ВАЗ 2103',
-		imgFileName: '',
+		imgFileName: vaz2103,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 40,
@@ -41,7 +222,7 @@ export const toys = [
 	{
 		id: 5,
 		name: 'ВАЗ 2104',
-		imgFileName: '',
+		imgFileName: vaz2104,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 50,
@@ -50,7 +231,7 @@ export const toys = [
 	{
 		id: 6,
 		name: 'ВАЗ 2105',
-		imgFileName: '',
+		imgFileName: vaz2105,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 60,
@@ -59,7 +240,7 @@ export const toys = [
 	{
 		id: 7,
 		name: 'ВАЗ 2106',
-		imgFileName: '',
+		imgFileName: vaz2106,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 70,
@@ -68,7 +249,7 @@ export const toys = [
 	{
 		id: 8,
 		name: 'ВАЗ 2107',
-		imgFileName: '',
+		imgFileName: vaz2107,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 80,
@@ -77,7 +258,7 @@ export const toys = [
 	{
 		id: 9,
 		name: 'ВАЗ 2108',
-		imgFileName: '',
+		imgFileName: vaz2108,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 90,
@@ -86,7 +267,7 @@ export const toys = [
 	{
 		id: 10,
 		name: 'ВАЗ 2109',
-		imgFileName: '',
+		imgFileName: vaz2109,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 100,
@@ -95,7 +276,7 @@ export const toys = [
 	{
 		id: 11,
 		name: 'ВАЗ 21099',
-		imgFileName: '',
+		imgFileName: vaz21099,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 110,
@@ -104,7 +285,7 @@ export const toys = [
 	{
 		id: 12,
 		name: 'ВАЗ 2121 "Нива"',
-		imgFileName: '',
+		imgFileName: vaz2121,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 120,
@@ -113,7 +294,7 @@ export const toys = [
 	{
 		id: 13,
 		name: 'ВАЗ 1111 "Ока"',
-		imgFileName: '',
+		imgFileName: vaz1111,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 130,
@@ -122,7 +303,7 @@ export const toys = [
 	{
 		id: 14,
 		name: 'ВАЗ 2114',
-		imgFileName: '',
+		imgFileName: vaz2114,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 140,
@@ -131,7 +312,7 @@ export const toys = [
 	{
 		id: 15,
 		name: 'ВАЗ 2115',
-		imgFileName: '',
+		imgFileName: vaz2115,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 150,
@@ -140,7 +321,7 @@ export const toys = [
 	{
 		id: 16,
 		name: 'ВАЗ 2112',
-		imgFileName: '',
+		imgFileName: vaz2112,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 160,
@@ -149,7 +330,7 @@ export const toys = [
 	{
 		id: 17,
 		name: 'ВАЗ 1118 "Калина"',
-		imgFileName: '',
+		imgFileName: vaz1118,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 170,
@@ -158,7 +339,7 @@ export const toys = [
 	{
 		id: 18,
 		name: 'ВАЗ 2123',
-		imgFileName: '',
+		imgFileName: vaz2123,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 180,
@@ -167,7 +348,7 @@ export const toys = [
 	{
 		id: 19,
 		name: 'Lada Priora',
-		imgFileName: '',
+		imgFileName: ladaPriora,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 190,
@@ -176,7 +357,7 @@ export const toys = [
 	{
 		id: 20,
 		name: 'Lada Vesta SW Cross',
-		imgFileName: '',
+		imgFileName: ladaVestaSwCross,
 		category: 'B-native',
 		subcategory: 'Lada',
 		globalOrder: 200,
@@ -185,7 +366,7 @@ export const toys = [
 	{
 		id: 21,
 		name: 'Москвич 400',
-		imgFileName: '',
+		imgFileName: moskvitch400,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 210,
@@ -194,7 +375,7 @@ export const toys = [
 	{
 		id: 23,
 		name: 'Москвич 400-420',
-		imgFileName: '',
+		imgFileName: moskvitch400420orud,
 		category: 'police',
 		subcategory: 'Moskvitch',
 		globalOrder: 230,
@@ -203,7 +384,7 @@ export const toys = [
 	{
 		id: 24,
 		name: 'Москвич 402',
-		imgFileName: '',
+		imgFileName: moskvitch402,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 240,
@@ -212,7 +393,7 @@ export const toys = [
 	{
 		id: 25,
 		name: 'Москвич 403',
-		imgFileName: '',
+		imgFileName: moskvitch403,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 250,
@@ -221,7 +402,7 @@ export const toys = [
 	{
 		id: 26,
 		name: 'Москвич 410',
-		imgFileName: '',
+		imgFileName: moskvitch410,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 260,
@@ -230,7 +411,7 @@ export const toys = [
 	{
 		id: 27,
 		name: 'Москвич 423Н',
-		imgFileName: '',
+		imgFileName: moskvitch423n,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 270,
@@ -239,7 +420,7 @@ export const toys = [
 	{
 		id: 28,
 		name: 'Москвич 408Э',
-		imgFileName: '',
+		imgFileName: moskvitch408e,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 280,
@@ -248,7 +429,7 @@ export const toys = [
 	{
 		id: 29,
 		name: 'Москвич 412',
-		imgFileName: '',
+		imgFileName: moskvitch412,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 290,
@@ -257,7 +438,7 @@ export const toys = [
 	{
 		id: 30,
 		name: 'Москвич 408',
-		imgFileName: '',
+		imgFileName: moskvitch408,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 300,
@@ -266,7 +447,7 @@ export const toys = [
 	{
 		id: 31,
 		name: 'Москвич 434',
-		imgFileName: '',
+		imgFileName: moskvitch434,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 310,
@@ -275,7 +456,7 @@ export const toys = [
 	{
 		id: 32,
 		name: 'Иж 2715',
-		imgFileName: '',
+		imgFileName: izh2715,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 320,
@@ -284,7 +465,7 @@ export const toys = [
 	{
 		id: 34,
 		name: 'Иж 2715-01',
-		imgFileName: '',
+		imgFileName: izh271501,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 340,
@@ -293,7 +474,7 @@ export const toys = [
 	{
 		id: 35,
 		name: 'Москвич 427',
-		imgFileName: '',
+		imgFileName: moskvitch427,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 350,
@@ -302,7 +483,7 @@ export const toys = [
 	{
 		id: 36,
 		name: 'Иж 21251',
-		imgFileName: '',
+		imgFileName: moskvitch21251,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 360,
@@ -311,7 +492,7 @@ export const toys = [
 	{
 		id: 37,
 		name: 'АЗЛК 2140',
-		imgFileName: '',
+		imgFileName: moskvitch2140,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 370,
@@ -320,7 +501,7 @@ export const toys = [
 	{
 		id: 38,
 		name: 'АЗЛК 2141',
-		imgFileName: '',
+		imgFileName: moskvitch2141,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 380,
@@ -329,7 +510,7 @@ export const toys = [
 	{
 		id: 39,
 		name: 'АЗЛК 2335',
-		imgFileName: '',
+		imgFileName: moskvitch2335,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 390,
@@ -338,7 +519,7 @@ export const toys = [
 	{
 		id: 40,
 		name: 'Иж 2126',
-		imgFileName: '',
+		imgFileName: izh2126,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 400,
@@ -347,7 +528,7 @@ export const toys = [
 	{
 		id: 41,
 		name: 'Москвич С-1',
-		imgFileName: '',
+		imgFileName: moskvitchS1,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 410,
@@ -356,7 +537,7 @@ export const toys = [
 	{
 		id: 42,
 		name: 'АЗЛК 2143 "Яуза"',
-		imgFileName: '',
+		imgFileName: moskvitch2143,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 420,
@@ -365,7 +546,7 @@ export const toys = [
 	{
 		id: 43,
 		name: 'АЗЛК 2144 "Истра"',
-		imgFileName: '',
+		imgFileName: moskvitch2144,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		globalOrder: 430,
@@ -374,7 +555,7 @@ export const toys = [
 	{
 		id: 44,
 		name: 'ГАЗ М-1',
-		imgFileName: '',
+		imgFileName: gazM1,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 440,
@@ -383,7 +564,7 @@ export const toys = [
 	{
 		id: 45,
 		name: 'ГАЗ М415',
-		imgFileName: '',
+		imgFileName: gazM415,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 450,
@@ -392,7 +573,7 @@ export const toys = [
 	{
 		id: 46,
 		name: 'ГАЗ 11-73',
-		imgFileName: '',
+		imgFileName: gaz1173,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 460,
@@ -401,7 +582,7 @@ export const toys = [
 	{
 		id: 47,
 		name: 'ГАЗ М20В "Победа"',
-		imgFileName: '',
+		imgFileName: gazM20v,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 470,
@@ -410,7 +591,7 @@ export const toys = [
 	{
 		id: 48,
 		name: 'ГАЗ М72 "Победа"',
-		imgFileName: '',
+		imgFileName: gazM72,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 480,
@@ -419,7 +600,7 @@ export const toys = [
 	{
 		id: 49,
 		name: 'ГАЗ 21И "Волга"',
-		imgFileName: '',
+		imgFileName: gaz21i,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 490,
@@ -428,7 +609,7 @@ export const toys = [
 	{
 		id: 50,
 		name: 'ГАЗ 21Р "Волга"',
-		imgFileName: '',
+		imgFileName: gaz21r,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 500,
@@ -437,7 +618,7 @@ export const toys = [
 	{
 		id: 51,
 		name: 'ГАЗ 22 "Волга',
-		imgFileName: '',
+		imgFileName: gaz22,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 510,
@@ -446,7 +627,7 @@ export const toys = [
 	{
 		id: 52,
 		name: 'ГАЗ 24 "Волга',
-		imgFileName: '',
+		imgFileName: gaz24,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 520,
@@ -455,7 +636,7 @@ export const toys = [
 	{
 		id: 53,
 		name: 'ГАЗ 24-02 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz2402,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 530,
@@ -464,7 +645,7 @@ export const toys = [
 	{
 		id: 54,
 		name: 'ГАЗ 24-02 "Эскорт"',
-		imgFileName: '',
+		imgFileName: gaz2402y,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 540,
@@ -473,7 +654,7 @@ export const toys = [
 	{
 		id: 55,
 		name: 'ГАЗ 24-95 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz2495,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 550,
@@ -482,7 +663,7 @@ export const toys = [
 	{
 		id: 56,
 		name: 'ГАЗ 24-10 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz2410,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 560,
@@ -491,7 +672,7 @@ export const toys = [
 	{
 		id: 57,
 		name: 'ГАЗ 24-12 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz2412,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 570,
@@ -500,7 +681,7 @@ export const toys = [
 	{
 		id: 58,
 		name: 'ГАЗ 3102 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz3102,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 580,
@@ -509,7 +690,7 @@ export const toys = [
 	{
 		id: 59,
 		name: 'ГАЗ 3105 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz3105,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 590,
@@ -518,7 +699,7 @@ export const toys = [
 	{
 		id: 60,
 		name: 'ГАЗ 3110 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz3110,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 600,
@@ -527,7 +708,7 @@ export const toys = [
 	{
 		id: 61,
 		name: 'ГАЗ 3111 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz3111,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 610,
@@ -536,7 +717,7 @@ export const toys = [
 	{
 		id: 62,
 		name: 'ГАЗ 31105 "Волга"',
-		imgFileName: '',
+		imgFileName: gaz31105,
 		category: 'B-native',
 		subcategory: 'GAZ',
 		globalOrder: 620,
@@ -545,7 +726,7 @@ export const toys = [
 	{
 		id: 63,
 		name: 'ЗИС 101',
-		imgFileName: '',
+		imgFileName: zis101,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 630,
@@ -554,7 +735,7 @@ export const toys = [
 	{
 		id: 64,
 		name: 'ЗИС 102',
-		imgFileName: '',
+		imgFileName: zis102,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 640,
@@ -563,7 +744,7 @@ export const toys = [
 	{
 		id: 65,
 		name: 'ЗИС 110',
-		imgFileName: '',
+		imgFileName: zis110,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 650,
@@ -572,7 +753,7 @@ export const toys = [
 	{
 		id: 66,
 		name: 'ГАЗ 13 "Чайка"',
-		imgFileName: '',
+		imgFileName: gaz13,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 660,
@@ -581,7 +762,7 @@ export const toys = [
 	{
 		id: 67,
 		name: 'ГАЗ 14 "Чайка"',
-		imgFileName: '',
+		imgFileName: gaz14,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 670,
@@ -590,7 +771,7 @@ export const toys = [
 	{
 		id: 68,
 		name: 'ЗИЛ 111',
-		imgFileName: '',
+		imgFileName: zil111,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 680,
@@ -599,7 +780,7 @@ export const toys = [
 	{
 		id: 69,
 		name: 'ЗИЛ 111г/д',
-		imgFileName: '',
+		imgFileName: zil111gd,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 690,
@@ -608,7 +789,7 @@ export const toys = [
 	{
 		id: 70,
 		name: 'ЗИЛ 114',
-		imgFileName: '',
+		imgFileName: zil114,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 700,
@@ -617,7 +798,7 @@ export const toys = [
 	{
 		id: 71,
 		name: 'ЗИЛ 41045',
-		imgFileName: '',
+		imgFileName: zil41045,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 710,
@@ -626,7 +807,7 @@ export const toys = [
 	{
 		id: 72,
 		name: 'ЗИЛ 41047',
-		imgFileName: '',
+		imgFileName: zil41047,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 720,
@@ -635,7 +816,7 @@ export const toys = [
 	{
 		id: 73,
 		name: 'ЗИЛ 4102',
-		imgFileName: '',
+		imgFileName: zil4102,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 730,
@@ -644,7 +825,7 @@ export const toys = [
 	{
 		id: 74,
 		name: 'Aurus Senat ',
-		imgFileName: '',
+		imgFileName: aurusSenat,
 		category: 'B-native',
 		subcategory: 'luxury',
 		globalOrder: 740,
@@ -653,7 +834,7 @@ export const toys = [
 	{
 		id: 75,
 		name: 'КИМ 10-50 ',
-		imgFileName: '',
+		imgFileName: kim1050,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 750,
@@ -662,7 +843,7 @@ export const toys = [
 	{
 		id: 76,
 		name: 'КИМ 10-51 ',
-		imgFileName: '',
+		imgFileName: kim1051,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 760,
@@ -671,7 +852,7 @@ export const toys = [
 	{
 		id: 77,
 		name: 'СМЗ С-3А',
-		imgFileName: '',
+		imgFileName: smzS3A,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 770,
@@ -680,7 +861,7 @@ export const toys = [
 	{
 		id: 78,
 		name: 'СМЗ С-3Д',
-		imgFileName: '',
+		imgFileName: smzS3d,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 780,
@@ -689,7 +870,7 @@ export const toys = [
 	{
 		id: 79,
 		name: 'НАМИ 050 "Белка"',
-		imgFileName: '',
+		imgFileName: nami050,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 790,
@@ -698,7 +879,7 @@ export const toys = [
 	{
 		id: 80,
 		name: 'ЗАЗ 965',
-		imgFileName: '',
+		imgFileName: zaz965,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 800,
@@ -707,7 +888,7 @@ export const toys = [
 	{
 		id: 81,
 		name: 'ЗАЗ 968А',
-		imgFileName: '',
+		imgFileName: zaz968A,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 810,
@@ -716,7 +897,7 @@ export const toys = [
 	{
 		id: 82,
 		name: 'ЗАЗ 968М',
-		imgFileName: '',
+		imgFileName: zaz968M,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 820,
@@ -725,7 +906,7 @@ export const toys = [
 	{
 		id: 83,
 		name: 'ЗАЗ 1102 "Таврия"',
-		imgFileName: '',
+		imgFileName: zaz1102,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 830,
@@ -734,7 +915,7 @@ export const toys = [
 	{
 		id: 84,
 		name: 'ЗАЗ 11055',
-		imgFileName: '',
+		imgFileName: zaz11055,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 840,
@@ -743,7 +924,7 @@ export const toys = [
 	{
 		id: 85,
 		name: 'ЛуАЗ 969 "Волынь"',
-		imgFileName: '',
+		imgFileName: luaz969,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 850,
@@ -752,7 +933,7 @@ export const toys = [
 	{
 		id: 86,
 		name: 'ЛуАЗ 969М "Волынь"',
-		imgFileName: '',
+		imgFileName: luaz969m,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 860,
@@ -761,7 +942,7 @@ export const toys = [
 	{
 		id: 87,
 		name: 'ГАЗ 69',
-		imgFileName: '',
+		imgFileName: gaz69,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 870,
@@ -770,7 +951,7 @@ export const toys = [
 	{
 		id: 88,
 		name: 'УАЗ 469',
-		imgFileName: '',
+		imgFileName: uaz469,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 880,
@@ -779,7 +960,7 @@ export const toys = [
 	{
 		id: 89,
 		name: 'УАЗ 452В',
-		imgFileName: '',
+		imgFileName: uaz452,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 890,
@@ -788,7 +969,7 @@ export const toys = [
 	{
 		id: 90,
 		name: 'УАЗ Хантер',
-		imgFileName: '',
+		imgFileName: uazHunter,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 900,
@@ -797,7 +978,7 @@ export const toys = [
 	{
 		id: 91,
 		name: 'УАЗ 3741',
-		imgFileName: '',
+		imgFileName: uaz3741,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 910,
@@ -806,7 +987,7 @@ export const toys = [
 	{
 		id: 92,
 		name: 'ГАЗ 64',
-		imgFileName: '',
+		imgFileName: gaz64,
 		category: 'B-native',
 		subcategory: 'other',
 		globalOrder: 875,
@@ -815,7 +996,7 @@ export const toys = [
 	{
 		id: 93,
 		name: 'Mini Cooper',
-		imgFileName: '',
+		imgFileName: miniCooper,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 930,
@@ -824,7 +1005,7 @@ export const toys = [
 	{
 		id: 94,
 		name: 'Mini Van',
-		imgFileName: '',
+		imgFileName: miniCooperVan,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 940,
@@ -833,7 +1014,7 @@ export const toys = [
 	{
 		id: 95,
 		name: 'Alfa Romeo 147',
-		imgFileName: '',
+		imgFileName: alfaRomeo147,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 950,
@@ -842,7 +1023,7 @@ export const toys = [
 	{
 		id: 96,
 		name: 'Volkswagen Beetle',
-		imgFileName: '',
+		imgFileName: volkswagenNewBeetle,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 960,
@@ -851,7 +1032,7 @@ export const toys = [
 	{
 		id: 97,
 		name: 'Volkswagen Golf',
-		imgFileName: '',
+		imgFileName: volkswagenGolf,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 970,
@@ -860,7 +1041,7 @@ export const toys = [
 	{
 		id: 98,
 		name: 'Volkswagen Polo',
-		imgFileName: '',
+		imgFileName: volkswagenPolo,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 980,
@@ -869,7 +1050,7 @@ export const toys = [
 	{
 		id: 99,
 		name: 'Mini Cooper',
-		imgFileName: '',
+		imgFileName: miniCooperNew,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 990,
@@ -878,7 +1059,7 @@ export const toys = [
 	{
 		id: 100,
 		name: 'Ford Ka',
-		imgFileName: '',
+		imgFileName: fordKa,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1000,
@@ -887,7 +1068,7 @@ export const toys = [
 	{
 		id: 101,
 		name: 'Jaguar E-type',
-		imgFileName: '',
+		imgFileName: jaguarEType,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1010,
@@ -896,7 +1077,7 @@ export const toys = [
 	{
 		id: 102,
 		name: 'Mercedes 300SL',
-		imgFileName: '',
+		imgFileName: mercedes300SL,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1020,
@@ -905,7 +1086,7 @@ export const toys = [
 	{
 		id: 103,
 		name: 'Mercedes 500SL',
-		imgFileName: '',
+		imgFileName: mercedes500SL,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1030,
@@ -914,7 +1095,7 @@ export const toys = [
 	{
 		id: 104,
 		name: 'Mercedes C',
-		imgFileName: '',
+		imgFileName: mercedes203,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1040,
@@ -923,7 +1104,7 @@ export const toys = [
 	{
 		id: 105,
 		name: 'Mercedes G',
-		imgFileName: '',
+		imgFileName: mercedes463,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1050,
@@ -932,7 +1113,7 @@ export const toys = [
 	{
 		id: 106,
 		name: 'Mercedes CLK-GTR',
-		imgFileName: '',
+		imgFileName: mercedesCLKGTR,
 		category: 'sport',
 		subcategory: 'B',
 		globalOrder: 1060,
@@ -941,7 +1122,7 @@ export const toys = [
 	{
 		id: 107,
 		name: 'Porsche Cayenne',
-		imgFileName: '',
+		imgFileName: porscheCayenne,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1070,
@@ -950,7 +1131,7 @@ export const toys = [
 	{
 		id: 108,
 		name: 'Hummer 2',
-		imgFileName: '',
+		imgFileName: hummer2,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1080,
@@ -959,7 +1140,7 @@ export const toys = [
 	{
 		id: 109,
 		name: 'Lamborghini Countach',
-		imgFileName: '',
+		imgFileName: lamborghiniCountach,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1090,
@@ -968,7 +1149,7 @@ export const toys = [
 	{
 		id: 110,
 		name: 'Lincoln Towncar Limo',
-		imgFileName: '',
+		imgFileName: lincolnTowncarLimo,
 		category: 'B-foreign',
 		subcategory: 'luxury',
 		globalOrder: 1100,
@@ -977,7 +1158,7 @@ export const toys = [
 	{
 		id: 111,
 		name: 'Peugeot 404',
-		imgFileName: '',
+		imgFileName: peugeot404,
 		category: 'police',
 		subcategory: 'B',
 		globalOrder: 1110,
@@ -986,7 +1167,7 @@ export const toys = [
 	{
 		id: 112,
 		name: 'Jaguar MK II',
-		imgFileName: '',
+		imgFileName: jaguarMk2,
 		category: 'police',
 		subcategory: 'B',
 		globalOrder: 1120,
@@ -995,7 +1176,7 @@ export const toys = [
 	{
 		id: 113,
 		name: 'Subaru Impreza',
-		imgFileName: '',
+		imgFileName: subaruImprezaGendarme,
 		category: 'police',
 		subcategory: 'B',
 		globalOrder: 1130,
@@ -1004,7 +1185,7 @@ export const toys = [
 	{
 		id: 114,
 		name: 'Fiat 238',
-		imgFileName: '',
+		imgFileName: fiat238,
 		category: 'police',
 		subcategory: 'B',
 		globalOrder: 1140,
@@ -1013,7 +1194,7 @@ export const toys = [
 	{
 		id: 115,
 		name: 'Mitsubishi Evolution 6',
-		imgFileName: '',
+		imgFileName: mitsubishiEvolution6,
 		category: 'sport',
 		subcategory: 'B',
 		globalOrder: 1150,
@@ -1022,7 +1203,7 @@ export const toys = [
 	{
 		id: 116,
 		name: 'McLaren 1988',
-		imgFileName: '',
+		imgFileName: mcLarenMp1988,
 		category: 'sport',
 		subcategory: 'B',
 		globalOrder: 1160,
@@ -1031,7 +1212,7 @@ export const toys = [
 	{
 		id: 117,
 		name: 'Ferrari 2002',
-		imgFileName: '',
+		imgFileName: ferrari2002,
 		category: 'sport',
 		subcategory: 'B',
 		globalOrder: 1170,
@@ -1040,7 +1221,7 @@ export const toys = [
 	{
 		id: 118,
 		name: 'АМО Ф15',
-		imgFileName: '',
+		imgFileName: amoF15,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1180,
@@ -1049,7 +1230,7 @@ export const toys = [
 	{
 		id: 119,
 		name: 'ГАЗ АА',
-		imgFileName: '',
+		imgFileName: gazAA,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1190,
@@ -1058,7 +1239,7 @@ export const toys = [
 	{
 		id: 120,
 		name: 'ГАЗ 55',
-		imgFileName: '',
+		imgFileName: gaz55,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1200,
@@ -1067,7 +1248,7 @@ export const toys = [
 	{
 		id: 121,
 		name: 'КАЗ 601',
-		imgFileName: '',
+		imgFileName: kaz601,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1210,
@@ -1076,7 +1257,7 @@ export const toys = [
 	{
 		id: 122,
 		name: 'ГАЗ 51А',
-		imgFileName: '',
+		imgFileName: gaz51a,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1220,
@@ -1085,7 +1266,7 @@ export const toys = [
 	{
 		id: 123,
 		name: 'ГАЗ 63',
-		imgFileName: '',
+		imgFileName: gaz63,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1230,
@@ -1094,7 +1275,7 @@ export const toys = [
 	{
 		id: 124,
 		name: 'ЗИЛ 157',
-		imgFileName: '',
+		imgFileName: zil157,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1240,
@@ -1103,7 +1284,7 @@ export const toys = [
 	{
 		id: 125,
 		name: 'КАЗ 608В',
-		imgFileName: '',
+		imgFileName: kaz608v,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1250,
@@ -1112,7 +1293,7 @@ export const toys = [
 	{
 		id: 126,
 		name: 'МАЗ 503А',
-		imgFileName: '',
+		imgFileName: maz503a,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1260,
@@ -1121,7 +1302,7 @@ export const toys = [
 	{
 		id: 127,
 		name: 'МАЗ 6422',
-		imgFileName: '',
+		imgFileName: maz6422,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1270,
@@ -1130,7 +1311,7 @@ export const toys = [
 	{
 		id: 128,
 		name: 'ЗИЛ 130 ММЗ 555',
-		imgFileName: '',
+		imgFileName: zilMmz555,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1280,
@@ -1139,7 +1320,7 @@ export const toys = [
 	{
 		id: 129,
 		name: 'ЗИЛ 4333',
-		imgFileName: '',
+		imgFileName: zil4333,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1290,
@@ -1148,7 +1329,7 @@ export const toys = [
 	{
 		id: 130,
 		name: 'ЗИЛ 5301 "Бычок"',
-		imgFileName: '',
+		imgFileName: zil5301,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1300,
@@ -1157,7 +1338,7 @@ export const toys = [
 	{
 		id: 131,
 		name: 'ГАЗ 3302 "Газель"',
-		imgFileName: '',
+		imgFileName: gaz3302,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1310,
@@ -1166,7 +1347,7 @@ export const toys = [
 	{
 		id: 132,
 		name: 'ГАЗ 3307',
-		imgFileName: '',
+		imgFileName: gaz3307,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1320,
@@ -1175,7 +1356,7 @@ export const toys = [
 	{
 		id: 133,
 		name: 'Урал 44202',
-		imgFileName: '',
+		imgFileName: ural44202,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1330,
@@ -1184,7 +1365,7 @@ export const toys = [
 	{
 		id: 134,
 		name: 'КрАЗ 256Б',
-		imgFileName: '',
+		imgFileName: kraz256b,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1340,
@@ -1193,7 +1374,7 @@ export const toys = [
 	{
 		id: 135,
 		name: 'КрАЗ 6510',
-		imgFileName: '',
+		imgFileName: kraz6510,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1350,
@@ -1202,7 +1383,7 @@ export const toys = [
 	{
 		id: 136,
 		name: 'КамАЗ 4310',
-		imgFileName: '',
+		imgFileName: kamaz4310,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1360,
@@ -1211,7 +1392,7 @@ export const toys = [
 	{
 		id: 137,
 		name: 'КамАЗ 44108',
-		imgFileName: '',
+		imgFileName: kamaz44108,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1370,
@@ -1220,7 +1401,7 @@ export const toys = [
 	{
 		id: 138,
 		name: 'КамАЗ 5490',
-		imgFileName: '',
+		imgFileName: kamaz5490,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1380,
@@ -1229,7 +1410,7 @@ export const toys = [
 	{
 		id: 139,
 		name: 'КамАЗ 49252',
-		imgFileName: '',
+		imgFileName: kamaz49252,
 		category: 'sport',
 		subcategory: 'C',
 		globalOrder: 1390,
@@ -1238,7 +1419,7 @@ export const toys = [
 	{
 		id: 140,
 		name: 'КамАЗ 43509',
-		imgFileName: '',
+		imgFileName: kamaz43509,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1400,
@@ -1247,7 +1428,7 @@ export const toys = [
 	{
 		id: 141,
 		name: 'Mercedes Unimog U400',
-		imgFileName: '',
+		imgFileName: mercedesUnimog,
 		category: 'C-foreign',
 		subcategory: 'C',
 		globalOrder: 1410,
@@ -1256,7 +1437,7 @@ export const toys = [
 	{
 		id: 142,
 		name: 'К-700',
-		imgFileName: '',
+		imgFileName: k700,
 		category: 'tractor',
 		subcategory: 'tractor',
 		globalOrder: 1420,
@@ -1265,7 +1446,7 @@ export const toys = [
 	{
 		id: 143,
 		name: 'Zuk A-07',
-		imgFileName: '',
+		imgFileName: zukA07,
 		category: 'bus',
 		subcategory: 'D-foreign',
 		globalOrder: 1430,
@@ -1274,7 +1455,7 @@ export const toys = [
 	{
 		id: 144,
 		name: 'РАФ 977ДМ',
-		imgFileName: '',
+		imgFileName: raf977dm,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1440,
@@ -1283,7 +1464,7 @@ export const toys = [
 	{
 		id: 145,
 		name: 'РАФ 977Д',
-		imgFileName: '',
+		imgFileName: raf977d,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1450,
@@ -1292,7 +1473,7 @@ export const toys = [
 	{
 		id: 146,
 		name: 'РАФ 2203',
-		imgFileName: '',
+		imgFileName: raf2203,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1460,
@@ -1301,7 +1482,7 @@ export const toys = [
 	{
 		id: 147,
 		name: 'ГАЗ 2752 "Соболь"',
-		imgFileName: '',
+		imgFileName: gaz2752,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1470,
@@ -1310,7 +1491,7 @@ export const toys = [
 	{
 		id: 148,
 		name: 'ГАЗ 3221 "Газель"',
-		imgFileName: '',
+		imgFileName: gaz3221,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1480,
@@ -1319,7 +1500,7 @@ export const toys = [
 	{
 		id: 149,
 		name: 'Renault Trafic',
-		imgFileName: '',
+		imgFileName: renaultTrafic,
 		category: 'bus',
 		subcategory: 'D-foreign',
 		globalOrder: 1490,
@@ -1328,7 +1509,7 @@ export const toys = [
 	{
 		id: 150,
 		name: 'ПАЗ 672',
-		imgFileName: '',
+		imgFileName: paz672,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1500,
@@ -1337,7 +1518,7 @@ export const toys = [
 	{
 		id: 151,
 		name: 'ПАЗ 32050',
-		imgFileName: '',
+		imgFileName: paz3205,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1510,
@@ -1346,7 +1527,7 @@ export const toys = [
 	{
 		id: 152,
 		name: 'ЛиАЗ 677М',
-		imgFileName: '',
+		imgFileName: liaz677m,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1520,
@@ -1355,7 +1536,7 @@ export const toys = [
 	{
 		id: 153,
 		name: 'Ikarus 280',
-		imgFileName: '',
+		imgFileName: ikarus280,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1530,
@@ -1364,7 +1545,7 @@ export const toys = [
 	{
 		id: 154,
 		name: 'ГАЗ 51 ЦАРМ',
-		imgFileName: '',
+		imgFileName: gaz51carm,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1540,
@@ -1373,7 +1554,7 @@ export const toys = [
 	{
 		id: 155,
 		name: 'ЗИС 11 ПМЗ-1',
-		imgFileName: '',
+		imgFileName: zis11pmz1,
 		category: 'fire',
 		subcategory: 'fire-native',
 		globalOrder: 1550,
@@ -1382,7 +1563,7 @@ export const toys = [
 	{
 		id: 156,
 		name: 'Mercedes L4500F',
-		imgFileName: '',
+		imgFileName: mercedesL4500f,
 		category: 'fire',
 		subcategory: 'fire-foreign',
 		globalOrder: 1560,
@@ -1391,7 +1572,7 @@ export const toys = [
 	{
 		id: 157,
 		name: 'МАЗ 205 АЦ-30',
-		imgFileName: '',
+		imgFileName: maz205ac30,
 		category: 'fire',
 		subcategory: 'fire-native',
 		globalOrder: 1570,
@@ -1400,7 +1581,7 @@ export const toys = [
 	{
 		id: 158,
 		name: 'ЗИЛ 157 АР-2',
-		imgFileName: '',
+		imgFileName: zil157ar2,
 		category: 'fire',
 		subcategory: 'fire-native',
 		globalOrder: 1580,
@@ -1409,7 +1590,7 @@ export const toys = [
 	{
 		id: 159,
 		name: 'ЗИЛ 131 ПНС-110',
-		imgFileName: '',
+		imgFileName: zil131pns110,
 		category: 'fire',
 		subcategory: 'fire-native',
 		globalOrder: 1590,
@@ -1418,7 +1599,7 @@ export const toys = [
 	{
 		id: 160,
 		name: 'ЗИЛ 131 УМП-350',
-		imgFileName: '',
+		imgFileName: zil131ump350,
 		category: 'fire',
 		subcategory: 'fire-native',
 		globalOrder: 1600,
@@ -1427,7 +1608,7 @@ export const toys = [
 	{
 		id: 161,
 		name: 'ЗИЛ 130 АП-3',
-		imgFileName: '',
+		imgFileName: zil130ap3,
 		category: 'fire',
 		subcategory: 'fire-native',
 		globalOrder: 1610,
@@ -1436,7 +1617,7 @@ export const toys = [
 	{
 		id: 162,
 		name: 'КамАЗ 43118 АЦ-5-40',
-		imgFileName: '',
+		imgFileName: kamaz43118,
 		category: 'fire',
 		subcategory: 'fire-native',
 		globalOrder: 1620,
@@ -1445,7 +1626,7 @@ export const toys = [
 	{
 		id: 163,
 		name: 'Як 3',
-		imgFileName: '',
+		imgFileName: yak3,
 		category: 'plane',
 		subcategory: 'plane',
 		globalOrder: 1630,
@@ -1454,7 +1635,7 @@ export const toys = [
 	{
 		id: 164,
 		name: 'Ju 87 Stuka',
-		imgFileName: '',
+		imgFileName: ju87,
 		category: 'plane',
 		subcategory: 'plane',
 		globalOrder: 1640,
@@ -1463,7 +1644,7 @@ export const toys = [
 	{
 		id: 165,
 		name: 'Mitsubishi A6M2a (Zero 11)',
-		imgFileName: '',
+		imgFileName: mitsubishiA6M2A,
 		category: 'plane',
 		subcategory: 'plane',
 		globalOrder: 1650,
@@ -1472,7 +1653,7 @@ export const toys = [
 	{
 		id: 166,
 		name: 'Chance Vought F4U-1A Corsair',
-		imgFileName: '',
+		imgFileName: chanceVoughtCorsair,
 		category: 'plane',
 		subcategory: 'plane',
 		globalOrder: 1660,
@@ -1481,7 +1662,7 @@ export const toys = [
 	{
 		id: 167,
 		name: 'Me 262',
-		imgFileName: '',
+		imgFileName: me262,
 		category: 'plane',
 		subcategory: 'plane',
 		globalOrder: 1670,
@@ -1490,7 +1671,7 @@ export const toys = [
 	{
 		id: 168,
 		name: 'МТЗ 1',
-		imgFileName: '',
+		imgFileName: mtz1,
 		category: 'tractor',
 		subcategory: 'tractor',
 		globalOrder: 1680,
@@ -1499,7 +1680,7 @@ export const toys = [
 	{
 		id: 169,
 		name: 'МТЗ 2',
-		imgFileName: '',
+		imgFileName: mtz2,
 		category: 'tractor',
 		subcategory: 'tractor',
 		globalOrder: 1690,
@@ -1508,7 +1689,7 @@ export const toys = [
 	{
 		id: 170,
 		name: 'МТЗ 82',
-		imgFileName: '',
+		imgFileName: mtz82,
 		category: 'tractor',
 		subcategory: 'tractor',
 		globalOrder: 1700,
@@ -1517,7 +1698,7 @@ export const toys = [
 	{
 		id: 171,
 		name: 'КрАЗ 255В',
-		imgFileName: '',
+		imgFileName: kraz255v,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1710,
@@ -1526,7 +1707,7 @@ export const toys = [
 	{
 		id: 172,
 		name: 'Урал 375Д',
-		imgFileName: '',
+		imgFileName: ural375d,
 		category: 'C-native',
 		subcategory: 'C',
 		globalOrder: 1720,
@@ -1535,7 +1716,7 @@ export const toys = [
 	{
 		id: 173,
 		name: 'Эстония 21',
-		imgFileName: '',
+		imgFileName: estonia21,
 		category: 'sport',
 		subcategory: 'B',
 		globalOrder: 1730,
@@ -1544,7 +1725,7 @@ export const toys = [
 	{
 		id: 174,
 		name: 'Datsun 240Z',
-		imgFileName: '',
+		imgFileName: datsun240z,
 		category: 'police',
 		subcategory: 'B',
 		globalOrder: 1740,
@@ -1553,7 +1734,7 @@ export const toys = [
 	{
 		id: 175,
 		name: 'ГАЗ 03-30',
-		imgFileName: '',
+		imgFileName: gaz0330,
 		category: 'bus',
 		subcategory: 'D-native',
 		globalOrder: 1750,
@@ -1562,7 +1743,7 @@ export const toys = [
 	{
 		id: 176,
 		name: 'BMW Isetta',
-		imgFileName: '',
+		imgFileName: bmwIsetta,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1760,
@@ -1571,7 +1752,7 @@ export const toys = [
 	{
 		id: 177,
 		name: 'Mercedes 540K',
-		imgFileName: '',
+		imgFileName: mercedes540k,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1770,
@@ -1580,7 +1761,7 @@ export const toys = [
 	{
 		id: 178,
 		name: 'Mercedes McLaren SLR',
-		imgFileName: '',
+		imgFileName: mercedesSLR,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1780,
@@ -1589,7 +1770,7 @@ export const toys = [
 	{
 		id: 179,
 		name: 'Mercedes SLS',
-		imgFileName: '',
+		imgFileName: mercedesSLS,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1790,
@@ -1598,7 +1779,7 @@ export const toys = [
 	{
 		id: 180,
 		name: 'Kia K7',
-		imgFileName: '',
+		imgFileName: kiaK7,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1800,
@@ -1607,7 +1788,7 @@ export const toys = [
 	{
 		id: 181,
 		name: 'DeTomaso Pantera GTS',
-		imgFileName: '',
+		imgFileName: detomasoPantera,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1810,
@@ -1616,7 +1797,7 @@ export const toys = [
 	{
 		id: 182,
 		name: 'Lotus Esprit',
-		imgFileName: '',
+		imgFileName: lotusEsprit,
 		category: 'B-foreign',
 		subcategory: 'super',
 		globalOrder: 1820,
@@ -1625,7 +1806,7 @@ export const toys = [
 	{
 		id: 183,
 		name: 'Lexus LX570',
-		imgFileName: '',
+		imgFileName: lexusLX570,
 		category: 'B-foreign',
 		subcategory: 'B',
 		globalOrder: 1830,
@@ -1634,7 +1815,7 @@ export const toys = [
 	{
 		id: 184,
 		name: 'КВ-85',
-		imgFileName: '',
+		imgFileName: kv85,
 		category: 'tank',
 		subcategory: 'tank',
 		globalOrder: 1840,
@@ -1643,7 +1824,7 @@ export const toys = [
 	{
 		id: 184,
 		name: 'Т-72Б',
-		imgFileName: '',
+		imgFileName: t72b,
 		category: 'tank',
 		subcategory: 'tank',
 		globalOrder: 1840,
