@@ -8,6 +8,7 @@ const Card = ({name, imgFileName}: Car) => {
 		<S.Card>
 			<img src={imgFileName} alt='pic' style={{objectFit: 'contain', width: '100%'}}/>
 			<S.CardTitle>{name}</S.CardTitle>
+
 		</S.Card>
 	);
 };
