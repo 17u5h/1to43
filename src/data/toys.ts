@@ -1420,7 +1420,7 @@ export const toys = [
 		id: 140,
 		name: 'КамАЗ 43509',
 		imgFileName: kamaz43509,
-		category: 'C-native',
+		category: 'sport',
 		subcategory: 'C',
 		globalOrder: 1400,
 		brand: 'КамАЗ'
@@ -1822,7 +1822,7 @@ export const toys = [
 		brand: 'КВ'
 	},
 	{
-		id: 184,
+		id: 185,
 		name: 'Т-72Б',
 		imgFileName: t72b,
 		category: 'tank',

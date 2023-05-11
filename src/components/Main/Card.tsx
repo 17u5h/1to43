@@ -4,9 +4,11 @@ import {Car} from "../../types/Card";
 
 
 const Card = ({name, imgFileName}: Car) => {
+	const alt = `фотография модельки машины ${name}`
+
 	return (
 		<S.Card>
-			<img src={imgFileName} alt='pic' style={{objectFit: 'contain', width: '100%'}}/>
+			<S.ToyImg src={imgFileName} alt={alt}/>
 			<S.CardTitle>{name}</S.CardTitle>
 
 		</S.Card>
