@@ -9,3 +9,10 @@ export const Container = styled.div`
   margin: auto;
 	max-width: 1400px;
 `
+export const Main = styled.div`
+	display: flex;
+	flex-direction: column;
+`
+export const BlockOfCards = styled.div`
+	padding-top: 84px;
+`

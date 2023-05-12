@@ -10,5 +10,20 @@ export type Car = {
 }
 
 export type ResultModels = {
-	resultModels: Car[][]
+	vaz?: Car[]
+	moskvitch?: Car[]
+	gazSimplyCars?: Car[]
+	otherSimplyCars?: Car[]
+	luxurySimplyCars?: Car[]
+	foreignSimplyCars?: Car[]
+	nativeTrucks?: Car[]
+	foreignTrucks?: Car[]
+	buses?: Car[]
+	sportsCars?: Car[]
+	policeCars?: Car[]
+	fires?: Car[]
+	tractors?: Car[]
+	tanks?: Car[]
+	planes?: Car[]
 }
+

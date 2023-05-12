@@ -8,6 +8,7 @@ type Props = {
 }
 
 const BlockOfCards = ({arrayOfCars}: Props) => {
+	if (!arrayOfCars) console.error('передан пустой массив в BlockOfCards')
 	return (
 		<S.CardContainer>
 			{arrayOfCars.map(el => (

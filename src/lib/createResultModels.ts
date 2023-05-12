@@ -29,7 +29,7 @@ const createResultModels = () => {
 
 	const tractors = toys.filter(el => el.category.includes('tractor')).sort(compareFunction)
 
-	return [vaz,
+	return {vaz,
 			moskvitch,
 			gazSimplyCars,
 			otherSimplyCars,
@@ -43,7 +43,7 @@ const createResultModels = () => {
 			fires,
 			tractors,
 			tanks,
-			planes]
+			planes}
 }
 
 export default createResultModels

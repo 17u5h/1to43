@@ -3,12 +3,13 @@ import * as S from "./headerStyles";
 
 type Props = {
 	onClick: () => void
+	name: string
 	children: string
 }
 
-const HeaderButton = ({onClick, children}: Props) => {
+const HeaderButton = ({onClick, name, children}: Props) => {
 	return (
-		<S.HeaderButton onClick={onClick}>
+		<S.HeaderButton onClick={onClick} name={name}>
 			{children}
 		</S.HeaderButton>
 	);

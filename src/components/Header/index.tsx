@@ -4,21 +4,24 @@ import HeaderButton from "./HeaderButton";
 import {Car} from "../../types/Types";
 
 type Props = {
-	setResultModels: Dispatch<SetStateAction<Car[][]>>
+	onClick: (name: string) => void
 }
 
-const Header = ({setResultModels}: Props) => {
+const Header = ({onClick}: Props) => {
+
+
+
 	return (
 		<S.HeaderContainer>
-			<HeaderButton onClick={() => console.log('1')}>Легковые</HeaderButton>
-			<HeaderButton onClick={() => console.log('2')}>Грузовые</HeaderButton>
-			<HeaderButton onClick={() => console.log('3')}>Автобусы</HeaderButton>
-			<HeaderButton onClick={() => console.log('4')}>Спортивные</HeaderButton>
-			<HeaderButton onClick={() => console.log('4')}>Полицейские</HeaderButton>
-			<HeaderButton onClick={() => console.log('4')}>Пожарные</HeaderButton>
-			<HeaderButton onClick={() => console.log('6')}>Трактора</HeaderButton>
-			<HeaderButton onClick={() => console.log('5')}>Танки</HeaderButton>
-			<HeaderButton onClick={() => console.log('6')}>Самолёты</HeaderButton>
+			<HeaderButton name='simpleCars' onClick={() => onClick('simpleCars')}>Легковые</HeaderButton>
+			<HeaderButton name='trucks' onClick={() => onClick('trucks')}>Грузовые</HeaderButton>
+			<HeaderButton name='buses' onClick={() => console.log('3')}>Автобусы</HeaderButton>
+			<HeaderButton name='sport' onClick={() => console.log('4')}>Спортивные</HeaderButton>
+			<HeaderButton name='police' onClick={() => console.log('4')}>Полицейские</HeaderButton>
+			<HeaderButton name='fire' onClick={() => console.log('4')}>Пожарные</HeaderButton>
+			<HeaderButton name='tractors' onClick={() => console.log('6')}>Трактора</HeaderButton>
+			<HeaderButton name='tanks' onClick={() => console.log('5')}>Танки</HeaderButton>
+			<HeaderButton name='planes' onClick={() => console.log('6')}>Самолёты</HeaderButton>
 		</S.HeaderContainer>
 	);
 };
