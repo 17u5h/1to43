@@ -14,5 +14,5 @@ export const Main = styled.div`
 	flex-direction: column;
 `
 export const BlockOfCards = styled.div`
-	padding-top: 84px;
+	padding-top: 104px;
 `

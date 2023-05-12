@@ -1436,7 +1436,7 @@ export const toys = [
 	},
 	{
 		id: 142,
-		name: 'К-700',
+		name: 'К 700',
 		imgFileName: k700,
 		category: 'tractor',
 		subcategory: 'tractor',

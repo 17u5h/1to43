@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {FC, ReactElement} from 'react';
 import * as S from "./headerStyles";
 
 type Props = {
 	onClick: () => void
 	name: string
-	children: string
+	children: ReactElement | string
 }
 
 const HeaderButton = ({onClick, name, children}: Props) => {
