@@ -1,6 +1,6 @@
 import React from 'react';
-import * as S from "./mainStyles";
-import {Car} from "../../types/Card";
+import * as S from "../Main/mainStyles";
+import {Car} from "../../types/Types";
 
 
 const Card = ({name, imgFileName}: Car) => {

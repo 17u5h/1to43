@@ -102,7 +102,7 @@ import porscheCayenne from '../assets/pictures/toys/porsche-cayenne.JPG'
 import raf977d from '../assets/pictures/toys/raf-977d.JPG'
 import raf977dm from '../assets/pictures/toys/raf-977dm.JPG'
 import raf2203 from '../assets/pictures/toys/raf-2203.JPG'
-import renaultTrafic from '../assets/pictures/toys/renault-trafic.JPG'
+import renaultTraficII from '../assets/pictures/toys/renault-trafic.JPG'
 import smzS3A from '../assets/pictures/toys/smz-s3a.JPG'
 import smzS3d from '../assets/pictures/toys/smz-s3d.JPG'
 import subaruImprezaGendarme from '../assets/pictures/toys/subaru-impreza-gendarme.JPG'
@@ -189,7 +189,7 @@ export const toys = [
 		imgFileName: vaz2101,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 10,
+		year: 1970,
 		brand: 'ВАЗ'
 	},
 	{
@@ -198,7 +198,7 @@ export const toys = [
 		imgFileName: vaz21011,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 20,
+		year: 1974,
 		brand: 'ВАЗ'
 	},
 	{
@@ -207,7 +207,7 @@ export const toys = [
 		imgFileName: vaz2102,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 30,
+		year: 1971,
 		brand: 'ВАЗ'
 	},
 	{
@@ -216,7 +216,7 @@ export const toys = [
 		imgFileName: vaz2103,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 40,
+		year: 1972,
 		brand: 'ВАЗ'
 	},
 	{
@@ -225,7 +225,7 @@ export const toys = [
 		imgFileName: vaz2104,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 50,
+		year: 1984,
 		brand: 'ВАЗ'
 	},
 	{
@@ -234,7 +234,7 @@ export const toys = [
 		imgFileName: vaz2105,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 60,
+		year: 1980,
 		brand: 'ВАЗ'
 	},
 	{
@@ -243,7 +243,7 @@ export const toys = [
 		imgFileName: vaz2106,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 70,
+		year: 1976,
 		brand: 'ВАЗ'
 	},
 	{
@@ -252,7 +252,7 @@ export const toys = [
 		imgFileName: vaz2107,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 80,
+		year: 1982,
 		brand: 'ВАЗ'
 	},
 	{
@@ -261,7 +261,7 @@ export const toys = [
 		imgFileName: vaz2108,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 90,
+		year: 1984,
 		brand: 'ВАЗ'
 	},
 	{
@@ -270,7 +270,7 @@ export const toys = [
 		imgFileName: vaz2109,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 100,
+		year: 1987,
 		brand: 'ВАЗ'
 	},
 	{
@@ -279,7 +279,7 @@ export const toys = [
 		imgFileName: vaz21099,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 110,
+		year: 1990,
 		brand: 'ВАЗ'
 	},
 	{
@@ -288,7 +288,7 @@ export const toys = [
 		imgFileName: vaz2121,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 120,
+		year: 1977,
 		brand: 'ВАЗ'
 	},
 	{
@@ -297,7 +297,7 @@ export const toys = [
 		imgFileName: vaz1111,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 130,
+		year: 1988,
 		brand: 'ВАЗ'
 	},
 	{
@@ -306,7 +306,7 @@ export const toys = [
 		imgFileName: vaz2114,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 140,
+		year: 2001,
 		brand: 'ВАЗ'
 	},
 	{
@@ -315,7 +315,7 @@ export const toys = [
 		imgFileName: vaz2115,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 150,
+		year: 1997,
 		brand: 'ВАЗ'
 	},
 	{
@@ -324,7 +324,7 @@ export const toys = [
 		imgFileName: vaz2112,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 160,
+		year: 1998,
 		brand: 'ВАЗ'
 	},
 	{
@@ -333,7 +333,7 @@ export const toys = [
 		imgFileName: vaz1118,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 170,
+		year: 2004,
 		brand: 'ВАЗ'
 	},
 	{
@@ -342,7 +342,7 @@ export const toys = [
 		imgFileName: vaz2123,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 180,
+		year: 1998,
 		brand: 'ВАЗ'
 	},
 	{
@@ -351,7 +351,7 @@ export const toys = [
 		imgFileName: ladaPriora,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 190,
+		year: 2007,
 		brand: 'ВАЗ'
 	},
 	{
@@ -360,7 +360,7 @@ export const toys = [
 		imgFileName: ladaVestaSwCross,
 		category: 'B-native',
 		subcategory: 'Lada',
-		globalOrder: 200,
+		year: 2017,
 		brand: 'ВАЗ'
 	},
 	{
@@ -369,7 +369,7 @@ export const toys = [
 		imgFileName: moskvitch400,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 210,
+		year: 1946,
 		brand: 'МЗМА'
 	},
 	{
@@ -378,7 +378,7 @@ export const toys = [
 		imgFileName: moskvitch400420orud,
 		category: 'police',
 		subcategory: 'Moskvitch',
-		globalOrder: 230,
+		year: 1946,
 		brand: 'МЗМА'
 	},
 	{
@@ -387,7 +387,7 @@ export const toys = [
 		imgFileName: moskvitch402,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 240,
+		year: 1956,
 		brand: 'МЗМА'
 	},
 	{
@@ -396,7 +396,7 @@ export const toys = [
 		imgFileName: moskvitch403,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 250,
+		year: 1962,
 		brand: 'МЗМА'
 	},
 	{
@@ -405,7 +405,7 @@ export const toys = [
 		imgFileName: moskvitch410,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 260,
+		year: 1957,
 		brand: 'МЗМА'
 	},
 	{
@@ -414,7 +414,7 @@ export const toys = [
 		imgFileName: moskvitch423n,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 270,
+		year: 1957,
 		brand: 'МЗМА'
 	},
 	{
@@ -423,7 +423,7 @@ export const toys = [
 		imgFileName: moskvitch408e,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 280,
+		year: 1964,
 		brand: 'МЗМА'
 	},
 	{
@@ -432,7 +432,7 @@ export const toys = [
 		imgFileName: moskvitch412,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 290,
+		year: 1967,
 		brand: 'ИЖ'
 	},
 	{
@@ -441,7 +441,7 @@ export const toys = [
 		imgFileName: moskvitch408,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 300,
+		year: 1964,
 		brand: 'АЗЛК'
 	},
 	{
@@ -450,7 +450,7 @@ export const toys = [
 		imgFileName: moskvitch434,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 310,
+		year: 1968,
 		brand: 'ИЖ'
 	},
 	{
@@ -459,7 +459,7 @@ export const toys = [
 		imgFileName: izh2715,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 320,
+		year: 1972,
 		brand: 'ИЖ'
 	},
 	{
@@ -468,7 +468,7 @@ export const toys = [
 		imgFileName: izh271501,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 340,
+		year: 1982,
 		brand: 'ИЖ'
 	},
 	{
@@ -477,7 +477,7 @@ export const toys = [
 		imgFileName: moskvitch427,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 350,
+		year: 1967,
 		brand: 'МЗМА'
 	},
 	{
@@ -486,7 +486,7 @@ export const toys = [
 		imgFileName: moskvitch21251,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 360,
+		year: 1982,
 		brand: 'ИЖ'
 	},
 	{
@@ -495,7 +495,7 @@ export const toys = [
 		imgFileName: moskvitch2140,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 370,
+		year: 1975,
 		brand: 'АЗЛК'
 	},
 	{
@@ -504,7 +504,7 @@ export const toys = [
 		imgFileName: moskvitch2141,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 380,
+		year: 1986,
 		brand: 'АЗЛК'
 	},
 	{
@@ -513,7 +513,7 @@ export const toys = [
 		imgFileName: moskvitch2335,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 390,
+		year: 1994,
 		brand: 'АЗЛК'
 	},
 	{
@@ -522,7 +522,7 @@ export const toys = [
 		imgFileName: izh2126,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 400,
+		year: 1990,
 		brand: 'ИЖ'
 	},
 	{
@@ -531,7 +531,7 @@ export const toys = [
 		imgFileName: moskvitchS1,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 410,
+		year: 1974,
 		brand: 'АЗЛК'
 	},
 	{
@@ -540,7 +540,7 @@ export const toys = [
 		imgFileName: moskvitch2143,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 420,
+		year: 1991,
 		brand: 'АЗЛК'
 	},
 	{
@@ -549,7 +549,7 @@ export const toys = [
 		imgFileName: moskvitch2144,
 		category: 'B-native',
 		subcategory: 'Moskvitch',
-		globalOrder: 430,
+		year: 1992,
 		brand: 'АЗЛК'
 	},
 	{
@@ -558,7 +558,7 @@ export const toys = [
 		imgFileName: gazM1,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 440,
+		year: 1936,
 		brand: 'ГАЗ'
 	},
 	{
@@ -567,7 +567,7 @@ export const toys = [
 		imgFileName: gazM415,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 450,
+		year: 1939,
 		brand: 'ГАЗ'
 	},
 	{
@@ -576,7 +576,7 @@ export const toys = [
 		imgFileName: gaz1173,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 460,
+		year: 1936,
 		brand: 'ГАЗ'
 	},
 	{
@@ -585,7 +585,7 @@ export const toys = [
 		imgFileName: gazM20v,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 470,
+		year: 1946,
 		brand: 'ГАЗ'
 	},
 	{
@@ -594,7 +594,7 @@ export const toys = [
 		imgFileName: gazM72,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 480,
+		year: 1955,
 		brand: 'ГАЗ'
 	},
 	{
@@ -603,7 +603,7 @@ export const toys = [
 		imgFileName: gaz21i,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 490,
+		year: 1959,
 		brand: 'ГАЗ'
 	},
 	{
@@ -612,7 +612,7 @@ export const toys = [
 		imgFileName: gaz21r,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 500,
+		year: 1965,
 		brand: 'ГАЗ'
 	},
 	{
@@ -621,7 +621,7 @@ export const toys = [
 		imgFileName: gaz22,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 510,
+		year: 1962,
 		brand: 'ГАЗ'
 	},
 	{
@@ -630,7 +630,7 @@ export const toys = [
 		imgFileName: gaz24,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 520,
+		year: 1968,
 		brand: 'ГАЗ'
 	},
 	{
@@ -639,7 +639,7 @@ export const toys = [
 		imgFileName: gaz2402,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 530,
+		year: 1972,
 		brand: 'ГАЗ'
 	},
 	{
@@ -648,7 +648,7 @@ export const toys = [
 		imgFileName: gaz2402y,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 540,
+		year: 1986,
 		brand: 'ГАЗ'
 	},
 	{
@@ -657,7 +657,7 @@ export const toys = [
 		imgFileName: gaz2495,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 550,
+		year: 1974,
 		brand: 'ГАЗ'
 	},
 	{
@@ -666,7 +666,7 @@ export const toys = [
 		imgFileName: gaz2410,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 560,
+		year: 1985,
 		brand: 'ГАЗ'
 	},
 	{
@@ -675,7 +675,7 @@ export const toys = [
 		imgFileName: gaz2412,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 570,
+		year: 1987,
 		brand: 'ГАЗ'
 	},
 	{
@@ -684,7 +684,7 @@ export const toys = [
 		imgFileName: gaz3102,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 580,
+		year: 1981,
 		brand: 'ГАЗ'
 	},
 	{
@@ -693,7 +693,7 @@ export const toys = [
 		imgFileName: gaz3105,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 590,
+		year: 1991,
 		brand: 'ГАЗ'
 	},
 	{
@@ -702,7 +702,7 @@ export const toys = [
 		imgFileName: gaz3110,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 600,
+		year: 1997,
 		brand: 'ГАЗ'
 	},
 	{
@@ -711,7 +711,7 @@ export const toys = [
 		imgFileName: gaz3111,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 610,
+		year: 1998,
 		brand: 'ГАЗ'
 	},
 	{
@@ -720,7 +720,7 @@ export const toys = [
 		imgFileName: gaz31105,
 		category: 'B-native',
 		subcategory: 'GAZ',
-		globalOrder: 620,
+		year: 2003,
 		brand: 'ГАЗ'
 	},
 	{
@@ -729,7 +729,7 @@ export const toys = [
 		imgFileName: zis101,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 630,
+		year: 1936,
 		brand: 'ЗИС'
 	},
 	{
@@ -738,7 +738,7 @@ export const toys = [
 		imgFileName: zis102,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 640,
+		year: 1937,
 		brand: 'ЗИС'
 	},
 	{
@@ -747,7 +747,7 @@ export const toys = [
 		imgFileName: zis110,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 650,
+		year: 1945,
 		brand: 'ЗИС'
 	},
 	{
@@ -756,7 +756,7 @@ export const toys = [
 		imgFileName: gaz13,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 660,
+		year: 1959,
 		brand: 'ГАЗ'
 	},
 	{
@@ -765,7 +765,7 @@ export const toys = [
 		imgFileName: gaz14,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 670,
+		year: 1977,
 		brand: 'ГАЗ'
 	},
 	{
@@ -774,7 +774,7 @@ export const toys = [
 		imgFileName: zil111,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 680,
+		year: 1958,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -783,7 +783,7 @@ export const toys = [
 		imgFileName: zil111gd,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 690,
+		year: 1962,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -792,7 +792,7 @@ export const toys = [
 		imgFileName: zil114,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 700,
+		year: 1967,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -801,7 +801,7 @@ export const toys = [
 		imgFileName: zil41045,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 710,
+		year: 1983,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -810,7 +810,7 @@ export const toys = [
 		imgFileName: zil41047,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 720,
+		year: 1985,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -819,7 +819,7 @@ export const toys = [
 		imgFileName: zil4102,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 730,
+		year: 1988,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -828,7 +828,7 @@ export const toys = [
 		imgFileName: aurusSenat,
 		category: 'B-native',
 		subcategory: 'luxury',
-		globalOrder: 740,
+		year: 2021,
 		brand: 'НАМИ'
 	},
 	{
@@ -837,7 +837,7 @@ export const toys = [
 		imgFileName: kim1050,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 750,
+		year: 1940,
 		brand: 'КИМ'
 	},
 	{
@@ -846,7 +846,7 @@ export const toys = [
 		imgFileName: kim1051,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 760,
+		year: 1941,
 		brand: 'КИМ'
 	},
 	{
@@ -855,7 +855,7 @@ export const toys = [
 		imgFileName: smzS3A,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 770,
+		year: 1958,
 		brand: 'СМЗ'
 	},
 	{
@@ -864,7 +864,7 @@ export const toys = [
 		imgFileName: smzS3d,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 780,
+		year: 1970,
 		brand: 'СМЗ'
 	},
 	{
@@ -873,7 +873,7 @@ export const toys = [
 		imgFileName: nami050,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 790,
+		year: 1955,
 		brand: 'НАМИ'
 	},
 	{
@@ -882,7 +882,7 @@ export const toys = [
 		imgFileName: zaz965,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 800,
+		year: 1960,
 		brand: 'ЗАЗ'
 	},
 	{
@@ -891,7 +891,7 @@ export const toys = [
 		imgFileName: zaz968A,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 810,
+		year: 1971,
 		brand: 'ЗАЗ'
 	},
 	{
@@ -900,7 +900,7 @@ export const toys = [
 		imgFileName: zaz968M,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 820,
+		year: 1979,
 		brand: 'ЗАЗ'
 	},
 	{
@@ -909,7 +909,7 @@ export const toys = [
 		imgFileName: zaz1102,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 830,
+		year: 1987,
 		brand: 'ЗАЗ'
 	},
 	{
@@ -918,7 +918,7 @@ export const toys = [
 		imgFileName: zaz11055,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 840,
+		year: 1993,
 		brand: 'ЗАЗ'
 	},
 	{
@@ -927,7 +927,7 @@ export const toys = [
 		imgFileName: luaz969,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 850,
+		year: 1966,
 		brand: 'ЛуАЗ'
 	},
 	{
@@ -936,7 +936,7 @@ export const toys = [
 		imgFileName: luaz969m,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 860,
+		year: 1979,
 		brand: 'ЛуАЗ'
 	},
 	{
@@ -945,7 +945,7 @@ export const toys = [
 		imgFileName: gaz69,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 870,
+		year: 1952,
 		brand: 'ГАЗ'
 	},
 	{
@@ -954,7 +954,7 @@ export const toys = [
 		imgFileName: uaz469,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 880,
+		year: 1972,
 		brand: 'УАЗ'
 	},
 	{
@@ -963,7 +963,7 @@ export const toys = [
 		imgFileName: uaz452,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 890,
+		year: 1965,
 		brand: 'УАЗ'
 	},
 	{
@@ -972,7 +972,7 @@ export const toys = [
 		imgFileName: uazHunter,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 900,
+		year: 2003,
 		brand: 'УАЗ'
 	},
 	{
@@ -981,7 +981,7 @@ export const toys = [
 		imgFileName: uaz3741,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 910,
+		year: 1965,
 		brand: 'УАЗ'
 	},
 	{
@@ -990,7 +990,7 @@ export const toys = [
 		imgFileName: gaz64,
 		category: 'B-native',
 		subcategory: 'other',
-		globalOrder: 875,
+		year: 1941,
 		brand: 'ГАЗ'
 	},
 	{
@@ -999,7 +999,7 @@ export const toys = [
 		imgFileName: miniCooper,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 930,
+		year: 1959,
 		brand: 'Mini'
 	},
 	{
@@ -1008,7 +1008,7 @@ export const toys = [
 		imgFileName: miniCooperVan,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 940,
+		year: 1960,
 		brand: 'Mini'
 	},
 	{
@@ -1017,7 +1017,7 @@ export const toys = [
 		imgFileName: alfaRomeo147,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 950,
+		year: 2000,
 		brand: 'Alfa Romeo'
 	},
 	{
@@ -1026,7 +1026,7 @@ export const toys = [
 		imgFileName: volkswagenNewBeetle,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 960,
+		year: 2003,
 		brand: 'Volkswagen'
 	},
 	{
@@ -1035,7 +1035,7 @@ export const toys = [
 		imgFileName: volkswagenGolf,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 970,
+		year: 1997,
 		brand: 'Volkswagen'
 	},
 	{
@@ -1044,7 +1044,7 @@ export const toys = [
 		imgFileName: volkswagenPolo,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 980,
+		year: 2001,
 		brand: 'Volkswagen'
 	},
 	{
@@ -1053,7 +1053,7 @@ export const toys = [
 		imgFileName: miniCooperNew,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 990,
+		year: 2000,
 		brand: 'Mini'
 	},
 	{
@@ -1062,7 +1062,7 @@ export const toys = [
 		imgFileName: fordKa,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 1000,
+		year: 1996,
 		brand: 'Ford'
 	},
 	{
@@ -1071,7 +1071,7 @@ export const toys = [
 		imgFileName: jaguarEType,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1010,
+		year: 1961,
 		brand: 'Jaguar'
 	},
 	{
@@ -1080,7 +1080,7 @@ export const toys = [
 		imgFileName: mercedes300SL,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1020,
+		year: 1955,
 		brand: 'Mercedes'
 	},
 	{
@@ -1089,7 +1089,7 @@ export const toys = [
 		imgFileName: mercedes500SL,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1030,
+		year: 1971,
 		brand: 'Mercedes'
 	},
 	{
@@ -1098,7 +1098,7 @@ export const toys = [
 		imgFileName: mercedes203,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 1040,
+		year: 2000,
 		brand: 'Mercedes'
 	},
 	{
@@ -1107,7 +1107,7 @@ export const toys = [
 		imgFileName: mercedes463,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 1050,
+		year: 1979,
 		brand: 'Mercedes'
 	},
 	{
@@ -1116,7 +1116,7 @@ export const toys = [
 		imgFileName: mercedesCLKGTR,
 		category: 'sport',
 		subcategory: 'B',
-		globalOrder: 1060,
+		year: 1997,
 		brand: 'Mercedes'
 	},
 	{
@@ -1125,16 +1125,16 @@ export const toys = [
 		imgFileName: porscheCayenne,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 1070,
+		year: 2002,
 		brand: 'Porsche'
 	},
 	{
 		id: 108,
-		name: 'Hummer 2',
+		name: 'Hummer H2',
 		imgFileName: hummer2,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 1080,
+		year: 2002,
 		brand: 'GM'
 	},
 	{
@@ -1143,7 +1143,7 @@ export const toys = [
 		imgFileName: lamborghiniCountach,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1090,
+		year: 1974,
 		brand: 'Lamborghini'
 	},
 	{
@@ -1152,7 +1152,7 @@ export const toys = [
 		imgFileName: lincolnTowncarLimo,
 		category: 'B-foreign',
 		subcategory: 'luxury',
-		globalOrder: 1100,
+		year: 1980,
 		brand: 'Lincoln'
 	},
 	{
@@ -1161,7 +1161,7 @@ export const toys = [
 		imgFileName: peugeot404,
 		category: 'police',
 		subcategory: 'B',
-		globalOrder: 1110,
+		year: 1960,
 		brand: 'Peugeot'
 	},
 	{
@@ -1170,7 +1170,7 @@ export const toys = [
 		imgFileName: jaguarMk2,
 		category: 'police',
 		subcategory: 'B',
-		globalOrder: 1120,
+		year: 1959,
 		brand: 'Jaguar'
 	},
 	{
@@ -1179,7 +1179,7 @@ export const toys = [
 		imgFileName: subaruImprezaGendarme,
 		category: 'police',
 		subcategory: 'B',
-		globalOrder: 1130,
+		year: 2003,
 		brand: 'Subaru'
 	},
 	{
@@ -1188,7 +1188,7 @@ export const toys = [
 		imgFileName: fiat238,
 		category: 'police',
 		subcategory: 'B',
-		globalOrder: 1140,
+		year: 1969,
 		brand: 'Fiat'
 	},
 	{
@@ -1197,7 +1197,7 @@ export const toys = [
 		imgFileName: mitsubishiEvolution6,
 		category: 'sport',
 		subcategory: 'B',
-		globalOrder: 1150,
+		year: 1999,
 		brand: 'Mitsubishi'
 	},
 	{
@@ -1206,7 +1206,7 @@ export const toys = [
 		imgFileName: mcLarenMp1988,
 		category: 'sport',
 		subcategory: 'B',
-		globalOrder: 1160,
+		year: 1988,
 		brand: 'McLaren'
 	},
 	{
@@ -1215,7 +1215,7 @@ export const toys = [
 		imgFileName: ferrari2002,
 		category: 'sport',
 		subcategory: 'B',
-		globalOrder: 1170,
+		year: 2002,
 		brand: 'Ferrari'
 	},
 	{
@@ -1224,7 +1224,7 @@ export const toys = [
 		imgFileName: amoF15,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1180,
+		year: 1924,
 		brand: 'АМО'
 	},
 	{
@@ -1233,7 +1233,7 @@ export const toys = [
 		imgFileName: gazAA,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1190,
+		year: 1932,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1242,7 +1242,7 @@ export const toys = [
 		imgFileName: gaz55,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1200,
+		year: 1938,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1251,7 +1251,7 @@ export const toys = [
 		imgFileName: kaz601,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1210,
+		year: 1956,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1260,7 +1260,7 @@ export const toys = [
 		imgFileName: gaz51a,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1220,
+		year: 1946,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1269,7 +1269,7 @@ export const toys = [
 		imgFileName: gaz63,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1230,
+		year: 1948,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1278,7 +1278,7 @@ export const toys = [
 		imgFileName: zil157,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1240,
+		year: 1958,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1287,7 +1287,7 @@ export const toys = [
 		imgFileName: kaz608v,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1250,
+		year: 1967,
 		brand: 'КАЗ'
 	},
 	{
@@ -1296,7 +1296,7 @@ export const toys = [
 		imgFileName: maz503a,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1260,
+		year: 1965,
 		brand: 'МАЗ'
 	},
 	{
@@ -1305,7 +1305,7 @@ export const toys = [
 		imgFileName: maz6422,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1270,
+		year: 1978,
 		brand: 'МАЗ'
 	},
 	{
@@ -1314,7 +1314,7 @@ export const toys = [
 		imgFileName: zilMmz555,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1280,
+		year: 1964,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1323,7 +1323,7 @@ export const toys = [
 		imgFileName: zil4333,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1290,
+		year: 1987,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1332,7 +1332,7 @@ export const toys = [
 		imgFileName: zil5301,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1300,
+		year: 1995,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1341,7 +1341,7 @@ export const toys = [
 		imgFileName: gaz3302,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1310,
+		year: 2003,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1350,7 +1350,7 @@ export const toys = [
 		imgFileName: gaz3307,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1320,
+		year: 1989,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1359,7 +1359,7 @@ export const toys = [
 		imgFileName: ural44202,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1330,
+		year: 1977,
 		brand: 'Урал'
 	},
 	{
@@ -1368,7 +1368,7 @@ export const toys = [
 		imgFileName: kraz256b,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1340,
+		year: 1966,
 		brand: 'КрАз'
 	},
 	{
@@ -1377,7 +1377,7 @@ export const toys = [
 		imgFileName: kraz6510,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1350,
+		year: 1992,
 		brand: 'КрАЗ'
 	},
 	{
@@ -1386,7 +1386,7 @@ export const toys = [
 		imgFileName: kamaz4310,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1360,
+		year: 1981,
 		brand: 'КамАЗ'
 	},
 	{
@@ -1395,7 +1395,7 @@ export const toys = [
 		imgFileName: kamaz44108,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1370,
+		year: 1995,
 		brand: 'КамАЗ'
 	},
 	{
@@ -1404,7 +1404,7 @@ export const toys = [
 		imgFileName: kamaz5490,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1380,
+		year: 2013,
 		brand: 'КамАЗ'
 	},
 	{
@@ -1413,7 +1413,7 @@ export const toys = [
 		imgFileName: kamaz49252,
 		category: 'sport',
 		subcategory: 'C',
-		globalOrder: 1390,
+		year: 1994,
 		brand: 'КамАЗ'
 	},
 	{
@@ -1422,7 +1422,7 @@ export const toys = [
 		imgFileName: kamaz43509,
 		category: 'sport',
 		subcategory: 'C',
-		globalOrder: 1400,
+		year: 2019,
 		brand: 'КамАЗ'
 	},
 	{
@@ -1431,7 +1431,7 @@ export const toys = [
 		imgFileName: mercedesUnimog,
 		category: 'C-foreign',
 		subcategory: 'C',
-		globalOrder: 1410,
+		year: 1971,
 		brand: 'Mercedes'
 	},
 	{
@@ -1440,7 +1440,7 @@ export const toys = [
 		imgFileName: k700,
 		category: 'tractor',
 		subcategory: 'tractor',
-		globalOrder: 1420,
+		year: 1962,
 		brand: 'Кировец'
 	},
 	{
@@ -1449,7 +1449,7 @@ export const toys = [
 		imgFileName: zukA07,
 		category: 'bus',
 		subcategory: 'D-foreign',
-		globalOrder: 1430,
+		year: 1970,
 		brand: 'Zuk'
 	},
 	{
@@ -1458,7 +1458,7 @@ export const toys = [
 		imgFileName: raf977dm,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1440,
+		year: 1968,
 		brand: 'РАФ'
 	},
 	{
@@ -1467,7 +1467,7 @@ export const toys = [
 		imgFileName: raf977d,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1450,
+		year: 1962,
 		brand: 'РАФ'
 	},
 	{
@@ -1476,7 +1476,7 @@ export const toys = [
 		imgFileName: raf2203,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1460,
+		year: 1976,
 		brand: 'РАФ'
 	},
 	{
@@ -1485,7 +1485,7 @@ export const toys = [
 		imgFileName: gaz2752,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1470,
+		year: 2010,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1494,16 +1494,16 @@ export const toys = [
 		imgFileName: gaz3221,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1480,
+		year: 2003,
 		brand: 'ГАЗ'
 	},
 	{
 		id: 149,
-		name: 'Renault Trafic',
-		imgFileName: renaultTrafic,
+		name: 'Renault Trafic II',
+		imgFileName: renaultTraficII,
 		category: 'bus',
 		subcategory: 'D-foreign',
-		globalOrder: 1490,
+		year: 2001,
 		brand: 'Renault'
 	},
 	{
@@ -1512,7 +1512,7 @@ export const toys = [
 		imgFileName: paz672,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1500,
+		year: 1967,
 		brand: 'ПАЗ'
 	},
 	{
@@ -1521,7 +1521,7 @@ export const toys = [
 		imgFileName: paz3205,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1510,
+		year: 1989,
 		brand: 'ПАЗ'
 	},
 	{
@@ -1530,7 +1530,7 @@ export const toys = [
 		imgFileName: liaz677m,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1520,
+		year: 1967,
 		brand: 'ЛиАЗ'
 	},
 	{
@@ -1539,7 +1539,7 @@ export const toys = [
 		imgFileName: ikarus280,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1530,
+		year: 1973,
 		brand: 'Ikarus'
 	},
 	{
@@ -1548,7 +1548,7 @@ export const toys = [
 		imgFileName: gaz51carm,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1540,
+		year: 1954,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1557,7 +1557,7 @@ export const toys = [
 		imgFileName: zis11pmz1,
 		category: 'fire',
 		subcategory: 'fire-native',
-		globalOrder: 1550,
+		year: 1934,
 		brand: 'ЗИС'
 	},
 	{
@@ -1566,7 +1566,7 @@ export const toys = [
 		imgFileName: mercedesL4500f,
 		category: 'fire',
 		subcategory: 'fire-foreign',
-		globalOrder: 1560,
+		year: 1944,
 		brand: 'Mercedes'
 	},
 	{
@@ -1575,7 +1575,7 @@ export const toys = [
 		imgFileName: maz205ac30,
 		category: 'fire',
 		subcategory: 'fire-native',
-		globalOrder: 1570,
+		year: 1947,
 		brand: 'МАЗ'
 	},
 	{
@@ -1584,7 +1584,7 @@ export const toys = [
 		imgFileName: zil157ar2,
 		category: 'fire',
 		subcategory: 'fire-native',
-		globalOrder: 1580,
+		year: 1958,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1593,7 +1593,7 @@ export const toys = [
 		imgFileName: zil131pns110,
 		category: 'fire',
 		subcategory: 'fire-native',
-		globalOrder: 1590,
+		year: 1966,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1602,7 +1602,7 @@ export const toys = [
 		imgFileName: zil131ump350,
 		category: 'fire',
 		subcategory: 'fire-native',
-		globalOrder: 1600,
+		year: 1966,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1611,7 +1611,7 @@ export const toys = [
 		imgFileName: zil130ap3,
 		category: 'fire',
 		subcategory: 'fire-native',
-		globalOrder: 1610,
+		year: 1962,
 		brand: 'ЗИЛ'
 	},
 	{
@@ -1620,7 +1620,7 @@ export const toys = [
 		imgFileName: kamaz43118,
 		category: 'fire',
 		subcategory: 'fire-native',
-		globalOrder: 1620,
+		year: 1995,
 		brand: 'КамАЗ'
 	},
 	{
@@ -1629,7 +1629,7 @@ export const toys = [
 		imgFileName: yak3,
 		category: 'plane',
 		subcategory: 'plane',
-		globalOrder: 1630,
+		year: 1943,
 		brand: 'Яковлев'
 	},
 	{
@@ -1638,7 +1638,7 @@ export const toys = [
 		imgFileName: ju87,
 		category: 'plane',
 		subcategory: 'plane',
-		globalOrder: 1640,
+		year: 1935,
 		brand: 'Junkers'
 	},
 	{
@@ -1647,7 +1647,7 @@ export const toys = [
 		imgFileName: mitsubishiA6M2A,
 		category: 'plane',
 		subcategory: 'plane',
-		globalOrder: 1650,
+		year: 1940,
 		brand: 'Mitsubishi'
 	},
 	{
@@ -1656,7 +1656,7 @@ export const toys = [
 		imgFileName: chanceVoughtCorsair,
 		category: 'plane',
 		subcategory: 'plane',
-		globalOrder: 1660,
+		year: 1942,
 		brand: 'Chance Vought'
 	},
 	{
@@ -1665,7 +1665,7 @@ export const toys = [
 		imgFileName: me262,
 		category: 'plane',
 		subcategory: 'plane',
-		globalOrder: 1670,
+		year: 1944,
 		brand: 'Messerschmitt'
 	},
 	{
@@ -1674,7 +1674,7 @@ export const toys = [
 		imgFileName: mtz1,
 		category: 'tractor',
 		subcategory: 'tractor',
-		globalOrder: 1680,
+		year: 1953,
 		brand: 'МТЗ'
 	},
 	{
@@ -1683,7 +1683,7 @@ export const toys = [
 		imgFileName: mtz2,
 		category: 'tractor',
 		subcategory: 'tractor',
-		globalOrder: 1690,
+		year: 1954,
 		brand: 'МТЗ'
 	},
 	{
@@ -1692,7 +1692,7 @@ export const toys = [
 		imgFileName: mtz82,
 		category: 'tractor',
 		subcategory: 'tractor',
-		globalOrder: 1700,
+		year: 1974,
 		brand: 'МТЗ'
 	},
 	{
@@ -1701,7 +1701,7 @@ export const toys = [
 		imgFileName: kraz255v,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1710,
+		year: 1967,
 		brand: 'КрАЗ'
 	},
 	{
@@ -1710,7 +1710,7 @@ export const toys = [
 		imgFileName: ural375d,
 		category: 'C-native',
 		subcategory: 'C',
-		globalOrder: 1720,
+		year: 1961,
 		brand: 'Урал'
 	},
 	{
@@ -1718,8 +1718,8 @@ export const toys = [
 		name: 'Эстония 21',
 		imgFileName: estonia21,
 		category: 'sport',
-		subcategory: 'B',
-		globalOrder: 1730,
+		subcategory: 'B-native',
+		year: 1985,
 		brand: 'Эстония'
 	},
 	{
@@ -1727,8 +1727,8 @@ export const toys = [
 		name: 'Datsun 240Z',
 		imgFileName: datsun240z,
 		category: 'police',
-		subcategory: 'B',
-		globalOrder: 1740,
+		subcategory: 'B-foreign',
+		year: 1969,
 		brand: 'Datsun'
 	},
 	{
@@ -1737,7 +1737,7 @@ export const toys = [
 		imgFileName: gaz0330,
 		category: 'bus',
 		subcategory: 'D-native',
-		globalOrder: 1750,
+		year: 1933,
 		brand: 'ГАЗ'
 	},
 	{
@@ -1745,8 +1745,8 @@ export const toys = [
 		name: 'BMW Isetta',
 		imgFileName: bmwIsetta,
 		category: 'B-foreign',
-		subcategory: 'B',
-		globalOrder: 1760,
+		subcategory: 'B-foreign',
+		year: 1955,
 		brand: 'BMW'
 	},
 	{
@@ -1755,7 +1755,7 @@ export const toys = [
 		imgFileName: mercedes540k,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1770,
+		year: 1934,
 		brand: 'Mercedes'
 	},
 	{
@@ -1764,7 +1764,7 @@ export const toys = [
 		imgFileName: mercedesSLR,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1780,
+		year: 2003,
 		brand: 'Mercedes'
 	},
 	{
@@ -1773,7 +1773,7 @@ export const toys = [
 		imgFileName: mercedesSLS,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1790,
+		year: 2010,
 		brand: 'Mercedes'
 	},
 	{
@@ -1782,7 +1782,7 @@ export const toys = [
 		imgFileName: kiaK7,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 1800,
+		year: 2016,
 		brand: 'Kia'
 	},
 	{
@@ -1791,7 +1791,7 @@ export const toys = [
 		imgFileName: detomasoPantera,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1810,
+		year: 1971,
 		brand: 'DeTomaso'
 	},
 	{
@@ -1800,7 +1800,7 @@ export const toys = [
 		imgFileName: lotusEsprit,
 		category: 'B-foreign',
 		subcategory: 'super',
-		globalOrder: 1820,
+		year: 1988,
 		brand: 'Lotus'
 	},
 	{
@@ -1809,7 +1809,7 @@ export const toys = [
 		imgFileName: lexusLX570,
 		category: 'B-foreign',
 		subcategory: 'B',
-		globalOrder: 1830,
+		year: 2008,
 		brand: 'Lexus'
 	},
 	{
@@ -1818,7 +1818,7 @@ export const toys = [
 		imgFileName: kv85,
 		category: 'tank',
 		subcategory: 'tank',
-		globalOrder: 1840,
+		year: 1943,
 		brand: 'КВ'
 	},
 	{
@@ -1827,7 +1827,7 @@ export const toys = [
 		imgFileName: t72b,
 		category: 'tank',
 		subcategory: 'tank',
-		globalOrder: 1840,
+		year: 1985,
 		brand: 'Т'
 	}
 ]

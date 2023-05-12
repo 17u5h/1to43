@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const BlockOfCards = styled.div`
+	display: flex;
+	flex-direction: column;
+	gap: 120px;
+`
+
 export const Card = styled.div`
   position: relative;
   width: 333px;

@@ -5,6 +5,10 @@ export type Car = {
 	imgFileName?: string
 	category?: string
 	subcategory?: string
-	globalOrder?: number
+	year: number
 	brand?: string
+}
+
+export type ResultModels = {
+	resultModels: Car[][]
 }
