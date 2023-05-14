@@ -9,10 +9,9 @@ export const Card = styled.div`
   border: 1px solid #ddd;
   box-shadow: 0 0 8px #ddd;
   cursor: pointer;
-  transition: transform 0.1s;
 
   &:hover {
-    transform: scale(1.02);
+    box-shadow: 0 0 8px #888;
   }
 `
 export const ToyImg = styled.img`

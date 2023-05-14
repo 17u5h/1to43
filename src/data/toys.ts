@@ -190,7 +190,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1970,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: "Прототипом послужил Fiat-124. За время производства, с 19 апреля 1970 года по 1988 год было выпущено 4 846 900 автомобилей ВАЗ-2101 всех модификаций.  На базе ВАЗ-2101 было создано так называемое «классическое» семейство автомобилей ВАЗ, которое находилось на конвейере до 17 сентября 2012 года. Двигатель 1,2л и 64 л.с"
 	},
 	{
 		id: 2,
@@ -199,7 +200,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1974,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: "Выпускалась с 1974 по 1983. Основные изменения коснулись модернизации кузова. Двигатель 1,3л и 69 л.с"
 	},
 	{
 		id: 3,
@@ -208,7 +210,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1971,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: "Выпускалась с 1971 по 1986. Является лицензионной версией Fiat 124 Familiare, с многочисленными отличиями."
 	},
 	{
 		id: 4,
@@ -217,7 +220,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1972,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: "Выпускалась с 1972 по 1984. Представленные готовые решения от Fiat были таковы: для «нормы» — Fiat 124 (на базе которого началось производство ВАЗ-2101), а для «люкса» — Fiat 125 (на базе которого началось производство ВАЗ-2103). Стоимость ВАЗ-2103 составляла 7500 рублей, в то время как ВАЗ-2101 стоил 5500 рублей. За 12 лет было выпущено 1 304 899"
 	},
 	{
 		id: 5,
@@ -226,7 +230,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1984,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: "Выпускалась с 1984 по 2012. Так как передняя часть авто идентична моделям с кузовом седан, серийному отопителю сложнее согреть больший объём салона в холодный период года. Задняя часть авто часто запотевает в холода. У авто штатно отсутствуют задние вентиляционные отверстия для сброса салонного воздуха (в отличие от ВАЗ-2107), что затрудняет процесс закрытия дверей (с закрытыми стеклами)."
 	},
 	{
 		id: 6,
@@ -235,7 +240,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1980,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: "Выпускалась с 1980 по 2010. В конце 2000-х годов являлся самым дешёвым автомобилем семейства ВАЗ на российском рынке[1][2] (цена в 2009 г. — 178 000 рублей), в основном из-за наименьшей комплектации (только самые необходимые органы управления и средства комфорта; для сравнения: LADA 2107 в том же году стоила 192 000 рублей)."
 	},
 	{
 		id: 7,
@@ -244,7 +250,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1976,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 8,
@@ -253,7 +260,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1982,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 9,
@@ -262,7 +270,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1984,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 10,
@@ -271,7 +280,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1987,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 11,
@@ -280,7 +290,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1990,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 12,
@@ -289,7 +300,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1977,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 13,
@@ -298,7 +310,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1988,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 14,
@@ -307,7 +320,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 2001,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 15,
@@ -316,7 +330,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1997,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 16,
@@ -325,7 +340,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1998,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 17,
@@ -334,7 +350,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 2004,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 18,
@@ -343,7 +360,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 1998,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 19,
@@ -352,7 +370,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 2007,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 20,
@@ -361,7 +380,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Lada',
 		year: 2017,
-		brand: 'ВАЗ'
+		brand: 'ВАЗ',
+		description: ""
 	},
 	{
 		id: 21,
@@ -370,7 +390,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1946,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 23,
@@ -379,7 +400,8 @@ export const toys = [
 		category: 'police',
 		subcategory: 'Moskvitch',
 		year: 1946,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 24,
@@ -388,7 +410,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1956,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 25,
@@ -397,7 +420,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1962,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 26,
@@ -406,7 +430,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1957,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 27,
@@ -415,7 +440,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1957,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 28,
@@ -424,7 +450,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1964,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 29,
@@ -433,7 +460,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1967,
-		brand: 'ИЖ'
+		brand: 'ИЖ',
+		description: ""
 	},
 	{
 		id: 30,
@@ -442,7 +470,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1964,
-		brand: 'АЗЛК'
+		brand: 'АЗЛК',
+		description: ""
 	},
 	{
 		id: 31,
@@ -451,7 +480,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1968,
-		brand: 'ИЖ'
+		brand: 'ИЖ',
+		description: ""
 	},
 	{
 		id: 32,
@@ -460,7 +490,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1972,
-		brand: 'ИЖ'
+		brand: 'ИЖ',
+		description: ""
 	},
 	{
 		id: 34,
@@ -469,7 +500,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1982,
-		brand: 'ИЖ'
+		brand: 'ИЖ',
+		description: ""
 	},
 	{
 		id: 35,
@@ -478,7 +510,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1967,
-		brand: 'МЗМА'
+		brand: 'МЗМА',
+		description: ""
 	},
 	{
 		id: 36,
@@ -487,7 +520,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1982,
-		brand: 'ИЖ'
+		brand: 'ИЖ',
+		description: ""
 	},
 	{
 		id: 37,
@@ -496,7 +530,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1975,
-		brand: 'АЗЛК'
+		brand: 'АЗЛК',
+		description: ""
 	},
 	{
 		id: 38,
@@ -505,7 +540,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1986,
-		brand: 'АЗЛК'
+		brand: 'АЗЛК',
+		description: ""
 	},
 	{
 		id: 39,
@@ -514,7 +550,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1994,
-		brand: 'АЗЛК'
+		brand: 'АЗЛК',
+		description: ""
 	},
 	{
 		id: 40,
@@ -523,7 +560,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1990,
-		brand: 'ИЖ'
+		brand: 'ИЖ',
+		description: ""
 	},
 	{
 		id: 41,
@@ -532,7 +570,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1974,
-		brand: 'АЗЛК'
+		brand: 'АЗЛК',
+		description: ""
 	},
 	{
 		id: 42,
@@ -541,7 +580,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1991,
-		brand: 'АЗЛК'
+		brand: 'АЗЛК',
+		description: ""
 	},
 	{
 		id: 43,
@@ -550,7 +590,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'Moskvitch',
 		year: 1992,
-		brand: 'АЗЛК'
+		brand: 'АЗЛК',
+		description: ""
 	},
 	{
 		id: 44,
@@ -559,7 +600,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1936,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 45,
@@ -568,7 +610,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1939,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 46,
@@ -577,7 +620,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1936,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 47,
@@ -586,7 +630,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1946,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 48,
@@ -595,7 +640,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1955,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 49,
@@ -604,7 +650,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1959,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 50,
@@ -613,7 +660,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1965,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 51,
@@ -622,7 +670,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1962,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 52,
@@ -631,7 +680,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1968,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 53,
@@ -640,7 +690,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1972,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 54,
@@ -649,7 +700,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1986,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 55,
@@ -658,7 +710,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1974,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 56,
@@ -667,7 +720,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1985,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 57,
@@ -676,7 +730,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1987,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 58,
@@ -685,7 +740,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1981,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 59,
@@ -694,7 +750,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1991,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 60,
@@ -703,7 +760,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1997,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 61,
@@ -712,7 +770,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 1998,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 62,
@@ -721,7 +780,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'GAZ',
 		year: 2003,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 63,
@@ -730,7 +790,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1936,
-		brand: 'ЗИС'
+		brand: 'ЗИС',
+		description: ""
 	},
 	{
 		id: 64,
@@ -739,7 +800,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1937,
-		brand: 'ЗИС'
+		brand: 'ЗИС',
+		description: ""
 	},
 	{
 		id: 65,
@@ -748,7 +810,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1945,
-		brand: 'ЗИС'
+		brand: 'ЗИС',
+		description: ""
 	},
 	{
 		id: 66,
@@ -757,7 +820,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1959,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 67,
@@ -766,7 +830,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1977,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 68,
@@ -775,7 +840,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1958,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 69,
@@ -784,7 +850,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1962,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 70,
@@ -793,7 +860,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1967,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 71,
@@ -802,7 +870,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1983,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 72,
@@ -811,7 +880,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1985,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 73,
@@ -820,7 +890,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 1988,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 74,
@@ -829,7 +900,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'luxury',
 		year: 2021,
-		brand: 'НАМИ'
+		brand: 'НАМИ',
+		description: ""
 	},
 	{
 		id: 75,
@@ -838,7 +910,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1940,
-		brand: 'КИМ'
+		brand: 'КИМ',
+		description: ""
 	},
 	{
 		id: 76,
@@ -847,7 +920,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1941,
-		brand: 'КИМ'
+		brand: 'КИМ',
+		description: ""
 	},
 	{
 		id: 77,
@@ -856,7 +930,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1958,
-		brand: 'СМЗ'
+		brand: 'СМЗ',
+		description: ""
 	},
 	{
 		id: 78,
@@ -865,7 +940,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1970,
-		brand: 'СМЗ'
+		brand: 'СМЗ',
+		description: ""
 	},
 	{
 		id: 79,
@@ -874,7 +950,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1955,
-		brand: 'НАМИ'
+		brand: 'НАМИ',
+		description: ""
 	},
 	{
 		id: 80,
@@ -883,7 +960,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1960,
-		brand: 'ЗАЗ'
+		brand: 'ЗАЗ',
+		description: ""
 	},
 	{
 		id: 81,
@@ -892,7 +970,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1971,
-		brand: 'ЗАЗ'
+		brand: 'ЗАЗ',
+		description: ""
 	},
 	{
 		id: 82,
@@ -901,7 +980,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1979,
-		brand: 'ЗАЗ'
+		brand: 'ЗАЗ',
+		description: ""
 	},
 	{
 		id: 83,
@@ -910,7 +990,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1987,
-		brand: 'ЗАЗ'
+		brand: 'ЗАЗ',
+		description: ""
 	},
 	{
 		id: 84,
@@ -919,7 +1000,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1993,
-		brand: 'ЗАЗ'
+		brand: 'ЗАЗ',
+		description: ""
 	},
 	{
 		id: 85,
@@ -928,7 +1010,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1966,
-		brand: 'ЛуАЗ'
+		brand: 'ЛуАЗ',
+		description: ""
 	},
 	{
 		id: 86,
@@ -937,7 +1020,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1979,
-		brand: 'ЛуАЗ'
+		brand: 'ЛуАЗ',
+		description: ""
 	},
 	{
 		id: 87,
@@ -946,7 +1030,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1952,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 88,
@@ -955,7 +1040,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1972,
-		brand: 'УАЗ'
+		brand: 'УАЗ',
+		description: ""
 	},
 	{
 		id: 89,
@@ -964,7 +1050,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1965,
-		brand: 'УАЗ'
+		brand: 'УАЗ',
+		description: ""
 	},
 	{
 		id: 90,
@@ -973,7 +1060,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 2003,
-		brand: 'УАЗ'
+		brand: 'УАЗ',
+		description: ""
 	},
 	{
 		id: 91,
@@ -982,7 +1070,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1965,
-		brand: 'УАЗ'
+		brand: 'УАЗ',
+		description: ""
 	},
 	{
 		id: 92,
@@ -991,7 +1080,8 @@ export const toys = [
 		category: 'B-native',
 		subcategory: 'other',
 		year: 1941,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 93,
@@ -1000,7 +1090,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 1959,
-		brand: 'Mini'
+		brand: 'Mini',
+		description: ""
 	},
 	{
 		id: 94,
@@ -1009,7 +1100,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 1960,
-		brand: 'Mini'
+		brand: 'Mini',
+		description: ""
 	},
 	{
 		id: 95,
@@ -1018,7 +1110,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2000,
-		brand: 'Alfa Romeo'
+		brand: 'Alfa Romeo',
+		description: ""
 	},
 	{
 		id: 96,
@@ -1027,7 +1120,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2003,
-		brand: 'Volkswagen'
+		brand: 'Volkswagen',
+		description: ""
 	},
 	{
 		id: 97,
@@ -1036,7 +1130,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 1997,
-		brand: 'Volkswagen'
+		brand: 'Volkswagen',
+		description: ""
 	},
 	{
 		id: 98,
@@ -1045,7 +1140,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2001,
-		brand: 'Volkswagen'
+		brand: 'Volkswagen',
+		description: ""
 	},
 	{
 		id: 99,
@@ -1054,7 +1150,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2000,
-		brand: 'Mini'
+		brand: 'Mini',
+		description: ""
 	},
 	{
 		id: 100,
@@ -1063,7 +1160,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 1996,
-		brand: 'Ford'
+		brand: 'Ford',
+		description: ""
 	},
 	{
 		id: 101,
@@ -1072,7 +1170,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 1961,
-		brand: 'Jaguar'
+		brand: 'Jaguar',
+		description: ""
 	},
 	{
 		id: 102,
@@ -1081,7 +1180,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 1955,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 103,
@@ -1090,7 +1190,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 1971,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 104,
@@ -1099,7 +1200,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2000,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 105,
@@ -1108,7 +1210,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 1979,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 106,
@@ -1117,7 +1220,8 @@ export const toys = [
 		category: 'sport',
 		subcategory: 'B',
 		year: 1997,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 107,
@@ -1126,7 +1230,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2002,
-		brand: 'Porsche'
+		brand: 'Porsche',
+		description: ""
 	},
 	{
 		id: 108,
@@ -1135,7 +1240,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2002,
-		brand: 'GM'
+		brand: 'GM',
+		description: ""
 	},
 	{
 		id: 109,
@@ -1144,7 +1250,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 1974,
-		brand: 'Lamborghini'
+		brand: 'Lamborghini',
+		description: ""
 	},
 	{
 		id: 110,
@@ -1153,7 +1260,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'luxury',
 		year: 1980,
-		brand: 'Lincoln'
+		brand: 'Lincoln',
+		description: ""
 	},
 	{
 		id: 111,
@@ -1162,7 +1270,8 @@ export const toys = [
 		category: 'police',
 		subcategory: 'B',
 		year: 1960,
-		brand: 'Peugeot'
+		brand: 'Peugeot',
+		description: ""
 	},
 	{
 		id: 112,
@@ -1171,7 +1280,8 @@ export const toys = [
 		category: 'police',
 		subcategory: 'B',
 		year: 1959,
-		brand: 'Jaguar'
+		brand: 'Jaguar',
+		description: ""
 	},
 	{
 		id: 113,
@@ -1180,7 +1290,8 @@ export const toys = [
 		category: 'police',
 		subcategory: 'B',
 		year: 2003,
-		brand: 'Subaru'
+		brand: 'Subaru',
+		description: ""
 	},
 	{
 		id: 114,
@@ -1189,7 +1300,8 @@ export const toys = [
 		category: 'police',
 		subcategory: 'B',
 		year: 1969,
-		brand: 'Fiat'
+		brand: 'Fiat',
+		description: ""
 	},
 	{
 		id: 115,
@@ -1198,7 +1310,8 @@ export const toys = [
 		category: 'sport',
 		subcategory: 'B',
 		year: 1999,
-		brand: 'Mitsubishi'
+		brand: 'Mitsubishi',
+		description: ""
 	},
 	{
 		id: 116,
@@ -1207,7 +1320,8 @@ export const toys = [
 		category: 'sport',
 		subcategory: 'B',
 		year: 1988,
-		brand: 'McLaren'
+		brand: 'McLaren',
+		description: ""
 	},
 	{
 		id: 117,
@@ -1216,7 +1330,8 @@ export const toys = [
 		category: 'sport',
 		subcategory: 'B',
 		year: 2002,
-		brand: 'Ferrari'
+		brand: 'Ferrari',
+		description: ""
 	},
 	{
 		id: 118,
@@ -1225,7 +1340,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1924,
-		brand: 'АМО'
+		brand: 'АМО',
+		description: ""
 	},
 	{
 		id: 119,
@@ -1234,7 +1350,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1932,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 120,
@@ -1243,7 +1360,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1938,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 121,
@@ -1252,7 +1370,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1956,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 122,
@@ -1261,7 +1380,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1946,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 123,
@@ -1270,7 +1390,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1948,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 124,
@@ -1279,7 +1400,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1958,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 125,
@@ -1288,7 +1410,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1967,
-		brand: 'КАЗ'
+		brand: 'КАЗ',
+		description: ""
 	},
 	{
 		id: 126,
@@ -1297,7 +1420,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1965,
-		brand: 'МАЗ'
+		brand: 'МАЗ',
+		description: ""
 	},
 	{
 		id: 127,
@@ -1306,7 +1430,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1978,
-		brand: 'МАЗ'
+		brand: 'МАЗ',
+		description: ""
 	},
 	{
 		id: 128,
@@ -1315,7 +1440,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1964,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 129,
@@ -1324,7 +1450,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1987,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 130,
@@ -1333,7 +1460,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1995,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 131,
@@ -1342,7 +1470,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 2003,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 132,
@@ -1351,7 +1480,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1989,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 133,
@@ -1360,7 +1490,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1977,
-		brand: 'Урал'
+		brand: 'Урал',
+		description: ""
 	},
 	{
 		id: 134,
@@ -1369,7 +1500,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1966,
-		brand: 'КрАз'
+		brand: 'КрАЗ',
+		description: ""
 	},
 	{
 		id: 135,
@@ -1378,7 +1510,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1992,
-		brand: 'КрАЗ'
+		brand: 'КрАЗ',
+		description: ""
 	},
 	{
 		id: 136,
@@ -1387,7 +1520,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1981,
-		brand: 'КамАЗ'
+		brand: 'КамАЗ',
+		description: ""
 	},
 	{
 		id: 137,
@@ -1396,7 +1530,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1995,
-		brand: 'КамАЗ'
+		brand: 'КамАЗ',
+		description: ""
 	},
 	{
 		id: 138,
@@ -1405,7 +1540,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 2013,
-		brand: 'КамАЗ'
+		brand: 'КамАЗ',
+		description: ""
 	},
 	{
 		id: 139,
@@ -1414,7 +1550,8 @@ export const toys = [
 		category: 'sport',
 		subcategory: 'C',
 		year: 1994,
-		brand: 'КамАЗ'
+		brand: 'КамАЗ',
+		description: ""
 	},
 	{
 		id: 140,
@@ -1423,7 +1560,8 @@ export const toys = [
 		category: 'sport',
 		subcategory: 'C',
 		year: 2019,
-		brand: 'КамАЗ'
+		brand: 'КамАЗ',
+		description: ""
 	},
 	{
 		id: 141,
@@ -1432,7 +1570,8 @@ export const toys = [
 		category: 'C-foreign',
 		subcategory: 'C',
 		year: 1971,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 142,
@@ -1441,7 +1580,8 @@ export const toys = [
 		category: 'tractor',
 		subcategory: 'tractor',
 		year: 1962,
-		brand: 'Кировец'
+		brand: 'Кировец',
+		description: ""
 	},
 	{
 		id: 143,
@@ -1450,7 +1590,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-foreign',
 		year: 1970,
-		brand: 'Zuk'
+		brand: 'Zuk',
+		description: ""
 	},
 	{
 		id: 144,
@@ -1459,7 +1600,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1968,
-		brand: 'РАФ'
+		brand: 'РАФ',
+		description: ""
 	},
 	{
 		id: 145,
@@ -1468,7 +1610,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1962,
-		brand: 'РАФ'
+		brand: 'РАФ',
+		description: ""
 	},
 	{
 		id: 146,
@@ -1477,7 +1620,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1976,
-		brand: 'РАФ'
+		brand: 'РАФ',
+		description: ""
 	},
 	{
 		id: 147,
@@ -1486,7 +1630,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 2010,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 148,
@@ -1495,7 +1640,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 2003,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 149,
@@ -1504,7 +1650,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-foreign',
 		year: 2001,
-		brand: 'Renault'
+		brand: 'Renault',
+		description: ""
 	},
 	{
 		id: 150,
@@ -1513,7 +1660,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1967,
-		brand: 'ПАЗ'
+		brand: 'ПАЗ',
+		description: ""
 	},
 	{
 		id: 151,
@@ -1522,7 +1670,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1989,
-		brand: 'ПАЗ'
+		brand: 'ПАЗ',
+		description: ""
 	},
 	{
 		id: 152,
@@ -1531,7 +1680,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1967,
-		brand: 'ЛиАЗ'
+		brand: 'ЛиАЗ',
+		description: ""
 	},
 	{
 		id: 153,
@@ -1540,7 +1690,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1973,
-		brand: 'Ikarus'
+		brand: 'Ikarus',
+		description: ""
 	},
 	{
 		id: 154,
@@ -1549,7 +1700,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1954,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 155,
@@ -1558,7 +1710,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-native',
 		year: 1934,
-		brand: 'ЗИС'
+		brand: 'ЗИС',
+		description: ""
 	},
 	{
 		id: 156,
@@ -1567,7 +1720,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-foreign',
 		year: 1944,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 157,
@@ -1576,7 +1730,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-native',
 		year: 1947,
-		brand: 'МАЗ'
+		brand: 'МАЗ',
+		description: ""
 	},
 	{
 		id: 158,
@@ -1585,7 +1740,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-native',
 		year: 1958,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 159,
@@ -1594,7 +1750,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-native',
 		year: 1966,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 160,
@@ -1603,7 +1760,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-native',
 		year: 1966,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 161,
@@ -1612,7 +1770,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-native',
 		year: 1962,
-		brand: 'ЗИЛ'
+		brand: 'ЗИЛ',
+		description: ""
 	},
 	{
 		id: 162,
@@ -1621,7 +1780,8 @@ export const toys = [
 		category: 'fire',
 		subcategory: 'fire-native',
 		year: 1995,
-		brand: 'КамАЗ'
+		brand: 'КамАЗ',
+		description: ""
 	},
 	{
 		id: 163,
@@ -1630,7 +1790,8 @@ export const toys = [
 		category: 'plane',
 		subcategory: 'plane',
 		year: 1943,
-		brand: 'Яковлев'
+		brand: 'Яковлев',
+		description: ""
 	},
 	{
 		id: 164,
@@ -1639,7 +1800,8 @@ export const toys = [
 		category: 'plane',
 		subcategory: 'plane',
 		year: 1935,
-		brand: 'Junkers'
+		brand: 'Junkers',
+		description: ""
 	},
 	{
 		id: 165,
@@ -1648,7 +1810,8 @@ export const toys = [
 		category: 'plane',
 		subcategory: 'plane',
 		year: 1940,
-		brand: 'Mitsubishi'
+		brand: 'Mitsubishi',
+		description: ""
 	},
 	{
 		id: 166,
@@ -1657,7 +1820,8 @@ export const toys = [
 		category: 'plane',
 		subcategory: 'plane',
 		year: 1942,
-		brand: 'Chance Vought'
+		brand: 'Chance Vought',
+		description: ""
 	},
 	{
 		id: 167,
@@ -1666,7 +1830,8 @@ export const toys = [
 		category: 'plane',
 		subcategory: 'plane',
 		year: 1944,
-		brand: 'Messerschmitt'
+		brand: 'Messerschmitt',
+		description: ""
 	},
 	{
 		id: 168,
@@ -1675,7 +1840,8 @@ export const toys = [
 		category: 'tractor',
 		subcategory: 'tractor',
 		year: 1953,
-		brand: 'МТЗ'
+		brand: 'МТЗ',
+		description: ""
 	},
 	{
 		id: 169,
@@ -1684,7 +1850,8 @@ export const toys = [
 		category: 'tractor',
 		subcategory: 'tractor',
 		year: 1954,
-		brand: 'МТЗ'
+		brand: 'МТЗ',
+		description: ""
 	},
 	{
 		id: 170,
@@ -1693,7 +1860,8 @@ export const toys = [
 		category: 'tractor',
 		subcategory: 'tractor',
 		year: 1974,
-		brand: 'МТЗ'
+		brand: 'МТЗ',
+		description: ""
 	},
 	{
 		id: 171,
@@ -1702,7 +1870,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1967,
-		brand: 'КрАЗ'
+		brand: 'КрАЗ',
+		description: ""
 	},
 	{
 		id: 172,
@@ -1711,7 +1880,8 @@ export const toys = [
 		category: 'C-native',
 		subcategory: 'C',
 		year: 1961,
-		brand: 'Урал'
+		brand: 'Урал',
+		description: ""
 	},
 	{
 		id: 173,
@@ -1720,7 +1890,8 @@ export const toys = [
 		category: 'sport',
 		subcategory: 'B-native',
 		year: 1985,
-		brand: 'Эстония'
+		brand: 'Эстония',
+		description: ""
 	},
 	{
 		id: 174,
@@ -1729,7 +1900,8 @@ export const toys = [
 		category: 'police',
 		subcategory: 'B-foreign',
 		year: 1969,
-		brand: 'Datsun'
+		brand: 'Datsun',
+		description: ""
 	},
 	{
 		id: 175,
@@ -1738,7 +1910,8 @@ export const toys = [
 		category: 'bus',
 		subcategory: 'D-native',
 		year: 1933,
-		brand: 'ГАЗ'
+		brand: 'ГАЗ',
+		description: ""
 	},
 	{
 		id: 176,
@@ -1747,7 +1920,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B-foreign',
 		year: 1955,
-		brand: 'BMW'
+		brand: 'BMW',
+		description: ""
 	},
 	{
 		id: 177,
@@ -1756,7 +1930,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 1934,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 178,
@@ -1765,7 +1940,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 2003,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 179,
@@ -1774,7 +1950,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 2010,
-		brand: 'Mercedes'
+		brand: 'Mercedes',
+		description: ""
 	},
 	{
 		id: 180,
@@ -1783,7 +1960,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2016,
-		brand: 'Kia'
+		brand: 'Kia',
+		description: ""
 	},
 	{
 		id: 181,
@@ -1792,7 +1970,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 1971,
-		brand: 'DeTomaso'
+		brand: 'DeTomaso',
+		description: ""
 	},
 	{
 		id: 182,
@@ -1801,7 +1980,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'super',
 		year: 1988,
-		brand: 'Lotus'
+		brand: 'Lotus',
+		description: ""
 	},
 	{
 		id: 183,
@@ -1810,7 +1990,8 @@ export const toys = [
 		category: 'B-foreign',
 		subcategory: 'B',
 		year: 2008,
-		brand: 'Lexus'
+		brand: 'Lexus',
+		description: ""
 	},
 	{
 		id: 184,
@@ -1819,7 +2000,8 @@ export const toys = [
 		category: 'tank',
 		subcategory: 'tank',
 		year: 1943,
-		brand: 'КВ'
+		brand: 'КВ',
+		description: ""
 	},
 	{
 		id: 185,
@@ -1828,6 +2010,7 @@ export const toys = [
 		category: 'tank',
 		subcategory: 'tank',
 		year: 1985,
-		brand: 'Т'
+		brand: 'Т',
+		description: ""
 	}
 ]
