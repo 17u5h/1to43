@@ -28,6 +28,10 @@ export const CardTitle = styled.div`
   font-size: 28px;
   color: #999;
 `
+export const CardTail = styled.div`
+	text-align: justify;
+	padding: 8px;
+`
 
 export const CardContainer = styled.div`
   display: flex;

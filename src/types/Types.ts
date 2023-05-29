@@ -7,6 +7,7 @@ export type Car = {
 	subcategory?: string
 	year: number
 	brand?: string
+	description?: string
 }
 
 export type ResultModels = {

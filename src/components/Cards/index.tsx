@@ -12,7 +12,7 @@ const BlockOfCards = ({arrayOfCars}: Props) => {
 	return (
 		<S.CardContainer>
 			{arrayOfCars.map(el => (
-				el.imgFileName ? <Card key={el.id} name={el.name} imgFileName={el.imgFileName} year={el.year}/> :
+				el.imgFileName ? <Card key={el.id} name={el.name} imgFileName={el.imgFileName} year={el.year} description={el.description}/> :
 					<div>no picture</div>
 			))}
 		</S.CardContainer>

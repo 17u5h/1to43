@@ -6,7 +6,7 @@ import Tail from "./Tail";
 import ReactCardFlip from "react-card-flip";
 
 
-const Card = ({name, imgFileName}: Car) => {
+const Card = ({name, imgFileName, description}: Car) => {
 	const alt = `фотография модельки машины ${name}`
 	const [isFlipped, setIsFlipped] = useState<boolean>(false)
 
@@ -22,7 +22,7 @@ const Card = ({name, imgFileName}: Car) => {
 			</S.Card>
 
 			<S.Card onClick={cardToggle}>
-				<Tail/>
+				<Tail description={description}/>
 			</S.Card>
 		</ReactCardFlip>
 

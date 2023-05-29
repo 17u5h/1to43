@@ -1,10 +1,15 @@
 import React from 'react';
+import * as S from "../Main/mainStyles";
 
-const Tail = () => {
+type Props = {
+	description: string | undefined
+}
+
+const Tail = ({description}: Props) => {
 	return (
-		<div>
-			описание
-		</div>
+		<S.CardTail>
+			{description}
+		</S.CardTail>
 	);
 };
 
