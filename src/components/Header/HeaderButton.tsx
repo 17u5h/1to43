@@ -1,8 +1,8 @@
-import React, {FC, ReactElement} from 'react';
+import React, {FC, MouseEventHandler, ReactElement} from 'react';
 import * as S from "./headerStyles";
 
 type Props = {
-	onClick: () => void
+	onClick: (e: any) => void
 	name: string
 	children: ReactElement | string
 }

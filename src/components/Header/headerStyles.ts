@@ -69,11 +69,22 @@ export const DropdownSimpleCars = styled.div`
 	left: 0;
 	padding-bottom: 10px;
 	background-color: #1f3656;
-	
+  z-index: 1;
+
+
   @media (max-width: 1000px) {
     top: 60px;
   }
 	@media (max-width: 750px) {
     top: 40px;
   }
+`
+
+export const Cover = styled.div`
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: transparent;
 `

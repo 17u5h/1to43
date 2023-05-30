@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from "./headerStyles";
-import HeaderButton from "./HeaderButton";
 import {DropdownButton} from "./headerStyles";
+
 
 type Props = {
 	onClick: (name: string) => void

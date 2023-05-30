@@ -1,4 +1,4 @@
-import React, {Dispatch, SetStateAction, useState} from 'react';
+import React, {Dispatch, SetStateAction} from 'react';
 import * as S from "./headerStyles";
 import HeaderButton from "./HeaderButton";
 import HeaderSimpleCarsButton from "./HeaderSimpleCarsButton";
@@ -12,16 +12,17 @@ type Props = {
 
 const Header = ({onClick, isDropdownVisible, setIsDropdownVisible}: Props) => {
 
-
 	const toggleDropdownVisibility = () => {
 		setIsDropdownVisible(prevState => !prevState)
 	}
 
-
 	return (
 		<S.HeaderContainer>
 			<HeaderButton name='simpleCars' onClick={toggleDropdownVisibility}><HeaderSimpleCarsButton/></HeaderButton>
-			{isDropdownVisible && <DropdownSimpleCars onClick={onClick}/>}
+			{isDropdownVisible && <>
+				<DropdownSimpleCars onClick={onClick}/>
+				<S.Cover onClick={toggleDropdownVisibility}/>
+			</>}
 			<HeaderButton name='trucks' onClick={() => onClick('trucks')}>Грузовые</HeaderButton>
 			<HeaderButton name='buses' onClick={() => onClick('buses')}>Автобусы</HeaderButton>
 			<HeaderButton name='sportsCars' onClick={() => onClick('sportsCars')}>Спортивные</HeaderButton>
