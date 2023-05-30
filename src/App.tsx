@@ -1,14 +1,24 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import './App.css';
 import {GlobalStyle} from './globalStyle'
 import * as S from "./styles";
 import Header from "./components/Header";
-import {toys} from "./data/toys";
-import compareFunction from "./lib/compareFunction";
-import {Car, ResultModels} from "./types/Types";
 import createResultModels from "./lib/createResultModels";
 import BlockOfCards from "./components/Cards";
 import focusGroup from "./lib/focusGroup";
+import {
+	BUS,
+	FIRE,
+	FOREIGN,
+	GAZ,
+	LUXURY,
+	MOSKVITCH,
+	OTHER, PLANE,
+	POLICE,
+	SPORT, TANK, TRACTOR,
+	TRUCK,
+	VAZ
+} from "./data/titlesGroupsOfModels";
 
 function App() {
 	const resultModels = createResultModels()
@@ -92,20 +102,34 @@ function App() {
 				<GlobalStyle/>
 				<Header onClick={focusGroupSwitcher} isDropdownVisible={isDropdownVisible} setIsDropdownVisible={setIsDropdownVisible}/>
 				<S.Main>
+					<S.BlockTitle>{VAZ}</S.BlockTitle>
 					<S.BlockOfCards ref={vazRef}><BlockOfCards arrayOfCars={resultModels.vaz}/></S.BlockOfCards>
+					<S.BlockTitle>{MOSKVITCH}</S.BlockTitle>
 					<S.BlockOfCards ref={moskvitchRef}><BlockOfCards arrayOfCars={resultModels.moskvitch}/></S.BlockOfCards>
+					<S.BlockTitle>{GAZ}</S.BlockTitle>
 					<S.BlockOfCards ref={gazSimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.gazSimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle>{OTHER}</S.BlockTitle>
 					<S.BlockOfCards ref={otherSimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.otherSimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle>{LUXURY}</S.BlockTitle>
 					<S.BlockOfCards ref={luxurySimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.luxurySimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle>{FOREIGN}</S.BlockTitle>
 					<S.BlockOfCards ref={foreignSimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.foreignSimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle>{TRUCK}</S.BlockTitle>
 					<S.BlockOfCards ref={nativeTrucksRef}><BlockOfCards arrayOfCars={resultModels.nativeTrucks}/></S.BlockOfCards>
 					<S.BlockOfCards ref={foreignTrucksRef}><BlockOfCards arrayOfCars={resultModels.foreignTrucks}/></S.BlockOfCards>
+					<S.BlockTitle>{BUS}</S.BlockTitle>
 					<S.BlockOfCards ref={busesRef}><BlockOfCards arrayOfCars={resultModels.buses}/></S.BlockOfCards>
+					<S.BlockTitle>{SPORT}</S.BlockTitle>
 					<S.BlockOfCards ref={sportsCarsRef}><BlockOfCards arrayOfCars={resultModels.sportsCars}/></S.BlockOfCards>
+					<S.BlockTitle>{POLICE}</S.BlockTitle>
 					<S.BlockOfCards ref={policeCarsRef}><BlockOfCards arrayOfCars={resultModels.policeCars}/></S.BlockOfCards>
+					<S.BlockTitle>{FIRE}</S.BlockTitle>
 					<S.BlockOfCards ref={firesRef}><BlockOfCards arrayOfCars={resultModels.fires}/></S.BlockOfCards>
+					<S.BlockTitle>{TRACTOR}</S.BlockTitle>
 					<S.BlockOfCards ref={tractorsRef}><BlockOfCards arrayOfCars={resultModels.tractors}/></S.BlockOfCards>
+					<S.BlockTitle>{TANK}</S.BlockTitle>
 					<S.BlockOfCards ref={tanksRef}><BlockOfCards arrayOfCars={resultModels.tanks}/></S.BlockOfCards>
+					<S.BlockTitle>{PLANE}</S.BlockTitle>
 					<S.BlockOfCards ref={planesRef}><BlockOfCards arrayOfCars={resultModels.planes}/></S.BlockOfCards>
 				</S.Main>
 			</S.Container>

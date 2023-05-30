@@ -3,6 +3,7 @@ import * as S from "./headerStyles";
 import HeaderButton from "./HeaderButton";
 import HeaderSimpleCarsButton from "./HeaderSimpleCarsButton";
 import DropdownSimpleCars from "./DropdownSimpleCars";
+import {BUS, FIRE, PLANE, POLICE, SPORT, TANK, TRACTOR, TRUCK} from "../../data/titlesGroupsOfModels";
 
 type Props = {
 	onClick: (name: string) => void
@@ -23,14 +24,14 @@ const Header = ({onClick, isDropdownVisible, setIsDropdownVisible}: Props) => {
 				<DropdownSimpleCars onClick={onClick}/>
 				<S.Cover onClick={toggleDropdownVisibility}/>
 			</>}
-			<HeaderButton name='trucks' onClick={() => onClick('trucks')}>Грузовые</HeaderButton>
-			<HeaderButton name='buses' onClick={() => onClick('buses')}>Автобусы</HeaderButton>
-			<HeaderButton name='sportsCars' onClick={() => onClick('sportsCars')}>Спортивные</HeaderButton>
-			<HeaderButton name='policeCars' onClick={() => onClick('policeCars')}>Полицейские</HeaderButton>
-			<HeaderButton name='fires' onClick={() => onClick('fires')}>Пожарные</HeaderButton>
-			<HeaderButton name='tractors' onClick={() => onClick('tractors')}>Трактора</HeaderButton>
-			<HeaderButton name='tanks' onClick={() => onClick('tanks')}>Танки</HeaderButton>
-			<HeaderButton name='planes' onClick={() => onClick('planes')}>Самолёты</HeaderButton>
+			<HeaderButton name='trucks' onClick={() => onClick('trucks')}>{TRUCK}</HeaderButton>
+			<HeaderButton name='buses' onClick={() => onClick('buses')}>{BUS}</HeaderButton>
+			<HeaderButton name='sportsCars' onClick={() => onClick('sportsCars')}>{SPORT}</HeaderButton>
+			<HeaderButton name='policeCars' onClick={() => onClick('policeCars')}>{POLICE}</HeaderButton>
+			<HeaderButton name='fires' onClick={() => onClick('fires')}>{FIRE}</HeaderButton>
+			<HeaderButton name='tractors' onClick={() => onClick('tractors')}>{TRACTOR}</HeaderButton>
+			<HeaderButton name='tanks' onClick={() => onClick('tanks')}>{TANK}</HeaderButton>
+			<HeaderButton name='planes' onClick={() => onClick('planes')}>{PLANE}</HeaderButton>
 		</S.HeaderContainer>
 	);
 };
