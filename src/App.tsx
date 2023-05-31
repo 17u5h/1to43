@@ -102,35 +102,34 @@ function App() {
 				<GlobalStyle/>
 				<Header onClick={focusGroupSwitcher} isDropdownVisible={isDropdownVisible} setIsDropdownVisible={setIsDropdownVisible}/>
 				<S.Main>
-					<S.BlockTitle>{VAZ}</S.BlockTitle>
-					<S.BlockOfCards ref={vazRef}><BlockOfCards arrayOfCars={resultModels.vaz}/></S.BlockOfCards>
-					<S.BlockTitle>{MOSKVITCH}</S.BlockTitle>
-					<S.BlockOfCards ref={moskvitchRef}><BlockOfCards arrayOfCars={resultModels.moskvitch}/></S.BlockOfCards>
-					<S.BlockTitle>{GAZ}</S.BlockTitle>
-					<S.BlockOfCards ref={gazSimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.gazSimplyCars}/></S.BlockOfCards>
-					<S.BlockTitle>{OTHER}</S.BlockTitle>
-					<S.BlockOfCards ref={otherSimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.otherSimplyCars}/></S.BlockOfCards>
-					<S.BlockTitle>{LUXURY}</S.BlockTitle>
-					<S.BlockOfCards ref={luxurySimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.luxurySimplyCars}/></S.BlockOfCards>
-					<S.BlockTitle>{FOREIGN}</S.BlockTitle>
-					<S.BlockOfCards ref={foreignSimplyCarsRef}><BlockOfCards arrayOfCars={resultModels.foreignSimplyCars}/></S.BlockOfCards>
-					<S.BlockTitle>{TRUCK}</S.BlockTitle>
-					<S.BlockOfCards ref={nativeTrucksRef}><BlockOfCards arrayOfCars={resultModels.nativeTrucks}/></S.BlockOfCards>
-					<S.BlockOfCards ref={foreignTrucksRef}><BlockOfCards arrayOfCars={resultModels.foreignTrucks}/></S.BlockOfCards>
-					<S.BlockTitle>{BUS}</S.BlockTitle>
-					<S.BlockOfCards ref={busesRef}><BlockOfCards arrayOfCars={resultModels.buses}/></S.BlockOfCards>
-					<S.BlockTitle>{SPORT}</S.BlockTitle>
-					<S.BlockOfCards ref={sportsCarsRef}><BlockOfCards arrayOfCars={resultModels.sportsCars}/></S.BlockOfCards>
-					<S.BlockTitle>{POLICE}</S.BlockTitle>
-					<S.BlockOfCards ref={policeCarsRef}><BlockOfCards arrayOfCars={resultModels.policeCars}/></S.BlockOfCards>
-					<S.BlockTitle>{FIRE}</S.BlockTitle>
-					<S.BlockOfCards ref={firesRef}><BlockOfCards arrayOfCars={resultModels.fires}/></S.BlockOfCards>
-					<S.BlockTitle>{TRACTOR}</S.BlockTitle>
-					<S.BlockOfCards ref={tractorsRef}><BlockOfCards arrayOfCars={resultModels.tractors}/></S.BlockOfCards>
-					<S.BlockTitle>{TANK}</S.BlockTitle>
-					<S.BlockOfCards ref={tanksRef}><BlockOfCards arrayOfCars={resultModels.tanks}/></S.BlockOfCards>
-					<S.BlockTitle>{PLANE}</S.BlockTitle>
-					<S.BlockOfCards ref={planesRef}><BlockOfCards arrayOfCars={resultModels.planes}/></S.BlockOfCards>
+					<S.BlockTitle ref={vazRef}>{VAZ}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.vaz}/></S.BlockOfCards>
+					<S.BlockTitle ref={moskvitchRef}>{MOSKVITCH}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.moskvitch}/></S.BlockOfCards>
+					<S.BlockTitle ref={gazSimplyCarsRef}>{GAZ}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.gazSimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle ref={otherSimplyCarsRef}>{OTHER}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.otherSimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle ref={luxurySimplyCarsRef}>{LUXURY}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.luxurySimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle ref={foreignSimplyCarsRef}>{FOREIGN}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.foreignSimplyCars}/></S.BlockOfCards>
+					<S.BlockTitle ref={nativeTrucksRef}>{TRUCK}</S.BlockTitle>
+					<S.BlockOfCards ref={foreignTrucksRef}><BlockOfCards arrayOfCars={resultModels.nativeTrucks}/></S.BlockOfCards>
+					<S.BlockTitle ref={busesRef}>{BUS}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.buses}/></S.BlockOfCards>
+					<S.BlockTitle ref={sportsCarsRef}>{SPORT}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.sportsCars}/></S.BlockOfCards>
+					<S.BlockTitle ref={policeCarsRef}>{POLICE}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.policeCars}/></S.BlockOfCards>
+					<S.BlockTitle ref={firesRef}>{FIRE}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.fires}/></S.BlockOfCards>
+					<S.BlockTitle ref={tractorsRef}>{TRACTOR}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.tractors}/></S.BlockOfCards>
+					<S.BlockTitle ref={tanksRef}>{TANK}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.tanks}/></S.BlockOfCards>
+					<S.BlockTitle ref={planesRef}>{PLANE}</S.BlockTitle>
+					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.planes}/></S.BlockOfCards>
 				</S.Main>
 			</S.Container>
 		</S.Wrapper>
