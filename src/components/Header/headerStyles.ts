@@ -70,7 +70,8 @@ export const DropdownSimpleCars = styled.div`
 	padding-bottom: 10px;
 	background-color: #1f3656;
   z-index: 1;
-
+	transform: translateY(-150%);
+	animation: appearance 0.3s forwards;
 
   @media (max-width: 1000px) {
     top: 60px;
@@ -78,6 +79,10 @@ export const DropdownSimpleCars = styled.div`
 	@media (max-width: 750px) {
     top: 40px;
   }
+	@keyframes appearance {
+		0% {transform: translateY(-150%)}
+		100% {transform: translateY(0)}
+	}
 `
 
 export const Cover = styled.div`

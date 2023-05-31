@@ -2,12 +2,15 @@ import React from 'react';
 import * as S from "./headerStyles";
 import DropdownTriangle from "./DropdownTriangle";
 
+type Props = {
+	isDropdownVisible: boolean
+}
 
-const HeaderSimpleCarsButton = () => {
+const HeaderSimpleCarsButton = ( {isDropdownVisible}: Props) => {
 	return (
 		<S.HeaderSimpleCarsButton>
 			<p>Легковые</p>
-			<DropdownTriangle/>
+			<DropdownTriangle isDropdownVisible={isDropdownVisible}/>
 		</S.HeaderSimpleCarsButton>
 	);
 };

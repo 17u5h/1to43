@@ -19,7 +19,7 @@ const Header = ({onClick, isDropdownVisible, setIsDropdownVisible}: Props) => {
 
 	return (
 		<S.HeaderContainer>
-			<HeaderButton name='simpleCars' onClick={toggleDropdownVisibility}><HeaderSimpleCarsButton/></HeaderButton>
+			<HeaderButton name='simpleCars' onClick={toggleDropdownVisibility}><HeaderSimpleCarsButton  isDropdownVisible={isDropdownVisible}/></HeaderButton>
 			{isDropdownVisible && <>
 				<DropdownSimpleCars onClick={onClick}/>
 				<S.Cover onClick={toggleDropdownVisibility}/>
