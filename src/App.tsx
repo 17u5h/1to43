@@ -19,6 +19,7 @@ import {
 	TRUCK,
 	VAZ
 } from "./data/titlesGroupsOfModels";
+import HairOnScreen from "./components/HairOnScreen";
 
 function App() {
 	const resultModels = createResultModels()
@@ -130,6 +131,7 @@ function App() {
 					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.tanks}/></S.BlockOfCards>
 					<S.BlockTitle ref={planesRef}>{PLANE}</S.BlockTitle>
 					<S.BlockOfCards><BlockOfCards arrayOfCars={resultModels.planes}/></S.BlockOfCards>
+					<HairOnScreen/>
 				</S.Main>
 			</S.Container>
 		</S.Wrapper>
