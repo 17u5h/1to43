@@ -5,5 +5,5 @@ export const HairOnScreen = styled.img`
 	position: fixed;
 	top: 75vh;
 	left: 85vw;
-	width: 260px;
+	width: 200px;
 `
