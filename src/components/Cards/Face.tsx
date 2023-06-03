@@ -12,6 +12,7 @@ const Face = ({name, imgFileName, alt}: Props) => {
 		<div>
 			<S.ToyImg src={imgFileName} alt={alt}/>
 			<S.CardTitle>{name}</S.CardTitle>
+			<S.InformationSign>краткое описание...</S.InformationSign>
 		</div>
 	);
 };
