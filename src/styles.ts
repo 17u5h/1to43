@@ -14,6 +14,7 @@ export const Main = styled.div`
 	flex-direction: column;
 `
 export const BlockOfCards = styled.div`
+
 `
 
 export const BlockTitle = styled.div`
@@ -24,4 +25,5 @@ export const BlockTitle = styled.div`
 	font-weight: 600;
 	padding: 40px 0;
   color: #999;
+  scroll-margin-top: 3rem;
 `
