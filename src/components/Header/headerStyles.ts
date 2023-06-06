@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {mediaWidth} from "../../styles";
 
 export const HeaderContainer = styled.div`
   position: sticky;
@@ -10,16 +11,16 @@ export const HeaderContainer = styled.div`
   background-color: #1f3656;
   z-index: 1;
 	
-  @media (max-width: 1000px) {
+  @media ${mediaWidth.large} {
     height: 60px;
   }
-  @media (max-width: 750px) {
+  @media ${mediaWidth.medium} {
     height: 40px;
   }
-  @media (max-width: 700px) {
-    flex-wrap: wrap;
-		height: 100%;
-  }
+  //@media (max-width: 700px) {
+  //  flex-wrap: wrap;
+	//	height: 100%;
+  //}
 `
 
 export const HeaderButton = styled.button`
@@ -40,14 +41,14 @@ export const HeaderButton = styled.button`
     background-color: #294979;
   }
 	
-	@media (max-width: 1400px) {
+	@media ${mediaWidth.extraLarge} {
 		font-size: 16px;
 		padding: 20px 4px;
 	}
-	@media (max-width: 1000px) {
+	@media ${mediaWidth.large} {
 		font-size: 14px;
 	}
-	@media (max-width: 750px) {
+	@media ${mediaWidth.medium} {
 		font-size: 12px;
 	}
 `
@@ -73,10 +74,10 @@ export const DropdownSimpleCars = styled.div`
 	transform: translateY(-150%);
 	animation: appearance 0.3s forwards;
 
-  @media (max-width: 1000px) {
+  @media ${mediaWidth.large} {
     top: 60px;
   }
-	@media (max-width: 750px) {
+	@media ${mediaWidth.medium} {
     top: 40px;
   }
 	@keyframes appearance {

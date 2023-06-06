@@ -1,4 +1,4 @@
-import React, {FC, MouseEventHandler, ReactElement} from 'react';
+import React, {Dispatch, FC, MouseEventHandler, ReactElement, SetStateAction} from 'react';
 import * as S from "./headerStyles";
 
 type Props = {

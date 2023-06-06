@@ -1,5 +1,20 @@
 import styled from "styled-components";
 
+export const mediaWidthNumbers = {
+	extraLarge: 1400,
+	large: 1000,
+	medium: 750,
+	small: 500,
+}
+
+export const mediaWidth = {
+	extraLarge: `(max-width: ${mediaWidthNumbers.extraLarge}px)`,
+	large: `(max-width: ${mediaWidthNumbers.large}px)`,
+	medium: `(max-width: ${mediaWidthNumbers.medium}px)`,
+	small: `(max-width: ${mediaWidthNumbers.small}px)`,
+}
+
+
 export const Wrapper = styled.div`
   background-color: #f9fdfc;
   padding-bottom: 200px;
