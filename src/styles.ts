@@ -41,4 +41,8 @@ export const BlockTitle = styled.div`
 	padding: 40px 0;
   color: #999;
   scroll-margin-top: 3rem;
+	
+  @media ${mediaWidth.medium} {
+    scroll-margin-top: 4rem;
+  }
 `

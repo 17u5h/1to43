@@ -12,7 +12,7 @@ const HeaderSimpleCarsButton = ( {isDropdownVisible, isMobileDesign}: Props) => 
 	return (
 		<S.HeaderSimpleCarsButton>
 			{isMobileDesign ? <SimpleCarIcon/> : <p>Легковые</p>}
-			<DropdownTriangle isDropdownVisible={isDropdownVisible}/>
+			<DropdownTriangle isDropdownVisible={isDropdownVisible} isMobileDesign={isMobileDesign}/>
 		</S.HeaderSimpleCarsButton>
 	);
 };

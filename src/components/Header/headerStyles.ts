@@ -16,11 +16,8 @@ export const HeaderContainer = styled.div`
   }
   @media ${mediaWidth.medium} {
     height: 40px;
+    padding-top: 20px;
   }
-  //@media (max-width: 700px) {
-  //  flex-wrap: wrap;
-	//	height: 100%;
-  //}
 `
 
 export const HeaderButton = styled.button`
@@ -47,10 +44,12 @@ export const HeaderButton = styled.button`
 	}
 	@media ${mediaWidth.large} {
 		font-size: 14px;
+		padding: 20px 4px;
 	}
 	@media ${mediaWidth.medium} {
 		font-size: 12px;
-	}
+    padding: 10px 0px;
+  }
 `
 export const DropdownButton = styled(HeaderButton)`
   justify-content: start;
@@ -62,6 +61,10 @@ export const HeaderSimpleCarsButton = styled.div`
 	align-items: center;
 	justify-content: start;
 	gap: 4px;
+
+  @media ${mediaWidth.medium} {
+    gap: 0;
+  }
 `
 
 export const DropdownSimpleCars = styled.div`
