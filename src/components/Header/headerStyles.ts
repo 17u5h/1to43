@@ -11,10 +11,10 @@ export const HeaderContainer = styled.div`
   background-color: #1f3656;
   z-index: 1;
 	
-  @media ${mediaWidth.large} {
+  @media (${mediaWidth.large}) {
     height: 60px;
   }
-  @media ${mediaWidth.medium} {
+  @media (${mediaWidth.medium}) {
     height: 40px;
     padding-top: 20px;
   }
@@ -38,15 +38,15 @@ export const HeaderButton = styled.button`
     background-color: #294979;
   }
 	
-	@media ${mediaWidth.extraLarge} {
+	@media (${mediaWidth.extraLarge}) {
 		font-size: 16px;
 		padding: 20px 4px;
 	}
-	@media ${mediaWidth.large} {
+	@media (${mediaWidth.large}) {
 		font-size: 14px;
 		padding: 20px 4px;
 	}
-	@media ${mediaWidth.medium} {
+	@media (${mediaWidth.medium}) {
 		font-size: 12px;
     padding: 10px 0px;
   }
@@ -77,10 +77,10 @@ export const DropdownSimpleCars = styled.div`
 	transform: translateY(-150%);
 	animation: appearance 0.3s forwards;
 
-  @media ${mediaWidth.large} {
+  @media (${mediaWidth.large}) {
     top: 60px;
   }
-	@media ${mediaWidth.medium} {
+	@media (${mediaWidth.medium}) {
     top: 40px;
   }
 	@keyframes appearance {

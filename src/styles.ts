@@ -8,10 +8,10 @@ export const mediaWidthNumbers = {
 }
 
 export const mediaWidth = {
-	extraLarge: `(max-width: ${mediaWidthNumbers.extraLarge}px)`,
-	large: `(max-width: ${mediaWidthNumbers.large}px)`,
-	medium: `(max-width: ${mediaWidthNumbers.medium}px)`,
-	small: `(max-width: ${mediaWidthNumbers.small}px)`,
+	extraLarge: `max-width: ${mediaWidthNumbers.extraLarge}px`,
+	large: `max-width: ${mediaWidthNumbers.large}px`,
+	medium: `max-width: ${mediaWidthNumbers.medium}px`,
+	small: `max-width: ${mediaWidthNumbers.small}px`,
 }
 
 
@@ -28,9 +28,6 @@ export const Main = styled.div`
 	display: flex;
 	flex-direction: column;
 `
-export const BlockOfCards = styled.div`
-
-`
 
 export const BlockTitle = styled.div`
 	display: flex;
@@ -42,7 +39,7 @@ export const BlockTitle = styled.div`
   color: #999;
   scroll-margin-top: 3rem;
 	
-  @media ${mediaWidth.medium} {
+  @media (${mediaWidth.medium}) {
     scroll-margin-top: 4rem;
   }
 `
