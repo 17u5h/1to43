@@ -28,6 +28,8 @@ export const Main = styled.div`
 	display: flex;
 	flex-direction: column;
 `
+export const BlockOfCards = styled.div`
+`
 
 export const BlockTitle = styled.div`
 	display: flex;

@@ -48,7 +48,7 @@ export const HeaderButton = styled.button`
 	}
 	@media (${mediaWidth.medium}) {
 		font-size: 12px;
-    padding: 10px 0px;
+    padding: 10px 0;
   }
 `
 export const DropdownButton = styled(HeaderButton)`
@@ -81,7 +81,7 @@ export const DropdownSimpleCars = styled.div`
     top: 60px;
   }
 	@media (${mediaWidth.medium}) {
-    top: 40px;
+    top: 60px;
   }
 	@keyframes appearance {
 		0% {transform: translateY(-150%)}
