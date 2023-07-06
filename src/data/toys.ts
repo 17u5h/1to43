@@ -181,6 +181,11 @@ import lotusEsprit from '../assets/pictures/toys/lotus-esprit.jpg'
 import lexusLX570 from '../assets/pictures/toys/lexus-lx570.jpg'
 import kv85 from '../assets/pictures/toys/kv-85.jpg'
 import t72b from '../assets/pictures/toys/t-72b.jpg'
+import opelSpeedster from '../assets/pictures/toys/opel-speedster.JPG'
+import spitFireMkIXB from '../assets/pictures/toys/spitfire-mk-ixb.JPG'
+import gazM20Cabriolet from '../assets/pictures/toys/gaz-m20-cabriolet.jpg'
+import moskvitch400422 from '../assets/pictures/toys/moskvich-400-422.JPG'
+import moskvitch407 from '../assets/pictures/toys/moskvich-407.JPG'
 
 export const toys = [
 	{
@@ -761,7 +766,7 @@ export const toys = [
 		subcategory: 'GAZ',
 		year: 1997,
 		brand: 'ГАЗ',
-		description: "Производился с 1997 по 2004 год. Представляет собой последнюю и вынужденную маскировочную модернизацию кузова автомобиля 1960–1970 годов (первой моделью которого была ГАЗ-24) под дизайн 1990–2000 гг, обусловленную непоявлением в серийном производстве кузова современного автомобиля, ГАЗ-3103 (3105)."
+		description: "Производился с 1997 по 2004 год. Представляет собой вынужденную маскировочную модернизацию кузова автомобиля 1960–1970 годов (первой моделью которого была ГАЗ-24) под дизайн 1990–2000 гг, обусловленную непоявлением в серийном производстве кузова современного автомобиля, ГАЗ-3103 (3105)."
 	},
 	{
 		id: 61,
@@ -2013,5 +2018,55 @@ export const toys = [
 		year: 1985,
 		brand: 'Т',
 		description: "Танки семейства Т-72 выпускаются с 1973 и постоянно модернизируются. Т-72Б, в разных модификациях производится с 1985. Масса 41т. Двигатель В46 - дизельный V12, объемом 38,8л., мощностью 780л.с. (при 2000об/мин). Расход топлива по трассе 240л/100км."
+	},
+	{
+		id: 186,
+		name: 'Opel Speedster',
+		imgFileName: opelSpeedster,
+		category: 'B-foreign',
+		subcategory: 'B',
+		year: 2000,
+		brand: 'Opel',
+		description: "Производился с 2000 по 2005. Выпускался в Британии на заводе Lotus. Построен на базе Lotus Elise. В Англии продавался как Vauxhall VX220, а в Азии как Daewoo Speedster. Был одним из самых доступных родстеров, его примерная цена в Германии составляла 30000$."
+	},
+	{
+		id: 187,
+		name: 'Supermarine Spitfire Mk.IXb',
+		imgFileName: spitFireMkIXB,
+		category: 'plane',
+		subcategory: 'plane',
+		year: 1942,
+		brand: 'Supermarine',
+		description: "Производился с 1942 до конца войны. Всего было выпущено 5656 самолётов в модификации Mk.IX и ещё 262 машины были переделаны из Mk.V. Модификация IXb - истребитель-бомбардировщик. Мощность двигателя 1720 л.с. Максимальная скорость 650км/ч. Потолок 12954 м."
+	},
+	{
+		id: 188,
+		name: 'ГАЗ М20 "Победа"',
+		imgFileName: gazM20Cabriolet,
+		category: 'B-native',
+		subcategory: 'GAZ',
+		year: 1955,
+		brand: 'ГАЗ',
+		description: "Парадный кабриолет. Малосерийное производство ГАЗ ПАМС для Военного Минестерства. Заварена задняя левая дверь. На днище расположен Х-образный усилитель."
+	},
+	{
+		id: 189,
+		name: 'Москвич 400-422',
+		imgFileName: moskvitch400422,
+		category: 'B-native',
+		subcategory: 'Moskvitch',
+		year: 1948,
+		brand: 'МЗМА',
+		description: "Производился с 1948 по 1956. Изготовлено 2562 штук. Фургон с деревянными панелями. В СССР использование дерева в конструкции легкового автомобиля рассматривалось исключительно в качестве временной меры, связанной с нехваткой стального проката в первое послевоенное десятилетие."
+	},
+	{
+		id: 190,
+		name: 'Москвич 407',
+		imgFileName: moskvitch407,
+		category: 'B-native',
+		subcategory: 'Moskvitch',
+		year: 1958,
+		brand: 'МЗМА',
+		description: "Производился с 1958 по 1963. Выпущено 359 980 штук. Является усовершенствованной версией Москвича 402, с модернизированным верхнеклапанным двигателем и улучшенной отделкой. Несколько лет подряд более 50 % выпуска «Москвичей-407» уходило на экспорт, как в социалистические, так и в развитые капиталистические страны — Францию, Бельгию, Скандинавию, Финляндию, Англию и другие."
 	}
 ]

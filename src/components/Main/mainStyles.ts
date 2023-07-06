@@ -1,6 +1,13 @@
 import styled from "styled-components";
 
 
+export const CardContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+`
+
 export const Card = styled.div`
   position: relative;
   width: 333px;
@@ -43,9 +50,3 @@ export const CardTail = styled.div`
 	padding: 8px;
 `
 
-export const CardContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-`
