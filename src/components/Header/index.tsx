@@ -1,10 +1,9 @@
-import React, {Dispatch, SetStateAction, useState} from 'react';
+import React, {Dispatch, SetStateAction} from 'react';
 import * as S from "./headerStyles";
 import HeaderButton from "./HeaderButton";
 import HeaderSimpleCarsButton from "./HeaderSimpleCarsButton";
 import DropdownSimpleCars from "./DropdownSimpleCars";
 import {BUS, FIRE, PLANE, POLICE, SPORT, TANK, TRACTOR, TRUCK} from "../../data/titlesGroupsOfModels";
-import SimpleCarIcon from "../Icons/SimpleCarIcon";
 import TruckIcon from "../Icons/TruckIcon";
 import {useWindowResize} from "../../lib/useResize";
 import BusIcon from "../Icons/BusIcon";
@@ -14,19 +13,28 @@ import FireIcon from "../Icons/FireIcon";
 import TractorIcon from "../Icons/TractorIcon";
 import TankIcon from "../Icons/TankIcon";
 import PlaneIcon from "../Icons/PlaneIcon";
+import SearchIcon from "../Icons/SearchIcon";
+import SearchPanel from "./SearchPanel";
 
 type Props = {
 	onClick: (name: string) => void
 	isDropdownVisible: boolean
 	setIsDropdownVisible: Dispatch<SetStateAction<boolean>>
+	search: string
+	setSearch: Dispatch<SetStateAction<string>>
+	isSearchVisible: boolean
+	setIsSearchVisible: Dispatch<SetStateAction<boolean>>
 }
 
-const Header = ({onClick, isDropdownVisible, setIsDropdownVisible}: Props) => {
+const Header = ({onClick, isDropdownVisible, setIsDropdownVisible,search, setSearch, isSearchVisible, setIsSearchVisible}: Props) => {
 
 	const isMobileDesign = useWindowResize()
 
 	const toggleDropdownVisibility = () => {
 		setIsDropdownVisible(prevState => !prevState)
+	}
+	const toggleSearchVisibility = () => {
+		setIsSearchVisible(prevState => !prevState)
 	}
 
 	return (
@@ -44,6 +52,8 @@ const Header = ({onClick, isDropdownVisible, setIsDropdownVisible}: Props) => {
 			<HeaderButton name='tractors' onClick={() => onClick('tractors')}>{isMobileDesign ? <TractorIcon/> : TRACTOR}</HeaderButton>
 			<HeaderButton name='tanks' onClick={() => onClick('tanks')}>{isMobileDesign ? <TankIcon/> : TANK}</HeaderButton>
 			<HeaderButton name='planes' onClick={() => onClick('planes')}>{isMobileDesign ? <PlaneIcon/> : PLANE}</HeaderButton>
+			<HeaderButton name='search' onClick={toggleSearchVisibility}><SearchIcon/></HeaderButton>
+			{isSearchVisible && <SearchPanel search={search} setSearch={setSearch} setIsSearchVisible={setIsSearchVisible}/>}
 		</S.HeaderContainer>
 	);
 };

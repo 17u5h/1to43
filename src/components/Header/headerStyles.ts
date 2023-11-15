@@ -104,3 +104,35 @@ export const Cover = styled.div`
   left: 0;
   background-color: transparent;
 `
+export const SearchPanel = styled.div`
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 60px;
+	margin-top: 10px;
+  border-radius: 8px;
+  background-color: #1f3656;
+  z-index: 1;
+  transform: opacity = 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+  animation: appearance 0.5s ease-out;
+
+  @media (${mediaWidth.large}) {
+    top: 60px;
+  }
+  @media (${mediaWidth.medium}) {
+    top: 60px;
+  }
+  @keyframes appearance {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+`

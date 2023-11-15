@@ -9,9 +9,11 @@ type Props = {
 
 const HeaderButton = ({onClick, name, children}: Props) => {
 	return (
+		<>
 		<S.HeaderButton onClick={onClick} name={name}>
 			{children}
 		</S.HeaderButton>
+		</>
 	);
 };
 

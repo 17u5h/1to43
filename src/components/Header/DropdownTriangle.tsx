@@ -9,7 +9,6 @@ const DropdownTriangle = ({isDropdownVisible, isMobileDesign}: Props) => {
 
 	const rotate = `rotate(${Number(isDropdownVisible) * 180})`
 	const width = () => isMobileDesign ? '24' : '36'
-	console.log(width())
 
 	return (
 		<svg xmlns="http://www.w3.org/2000/svg" width={width()} height="36" viewBox="0 0 36 36" transform={rotate}>
