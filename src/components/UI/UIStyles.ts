@@ -24,6 +24,7 @@ export const Input = styled.input`
   outline: none;
 	font-size: 14px;
 	padding-left: 6px;
+	width: 84%;
 
   &:hover {
     box-shadow: 0 0 4px 10px #2259b2;

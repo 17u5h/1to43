@@ -1,4 +1,4 @@
-import React, {Dispatch, SetStateAction} from 'react';
+import React, {Dispatch, SetStateAction, useEffect, useRef} from 'react';
 import * as S from "./headerStyles";
 import HeaderButton from "./HeaderButton";
 import HeaderSimpleCarsButton from "./HeaderSimpleCarsButton";
@@ -29,6 +29,7 @@ type Props = {
 const Header = ({onClick, isDropdownVisible, setIsDropdownVisible,search, setSearch, isSearchVisible, setIsSearchVisible}: Props) => {
 
 	const isMobileDesign = useWindowResize()
+	const searchPanelRef = useRef<HTMLInputElement>(null)
 
 	const toggleDropdownVisibility = () => {
 		setIsDropdownVisible(prevState => !prevState)
@@ -36,6 +37,10 @@ const Header = ({onClick, isDropdownVisible, setIsDropdownVisible,search, setSea
 	const toggleSearchVisibility = () => {
 		setIsSearchVisible(prevState => !prevState)
 	}
+
+	useEffect(() => {
+		isSearchVisible && searchPanelRef.current?.focus()
+	},[isSearchVisible])
 
 	return (
 		<S.HeaderContainer>
@@ -53,7 +58,7 @@ const Header = ({onClick, isDropdownVisible, setIsDropdownVisible,search, setSea
 			<HeaderButton name='tanks' onClick={() => onClick('tanks')}>{isMobileDesign ? <TankIcon/> : TANK}</HeaderButton>
 			<HeaderButton name='planes' onClick={() => onClick('planes')}>{isMobileDesign ? <PlaneIcon/> : PLANE}</HeaderButton>
 			<HeaderButton name='search' onClick={toggleSearchVisibility}><SearchIcon/></HeaderButton>
-			{isSearchVisible && <SearchPanel search={search} setSearch={setSearch} setIsSearchVisible={setIsSearchVisible}/>}
+			{isSearchVisible && <SearchPanel ref={searchPanelRef} search={search} setSearch={setSearch} setIsSearchVisible={setIsSearchVisible}/>}
 		</S.HeaderContainer>
 	);
 };
