@@ -186,6 +186,7 @@ import spitFireMkIXB from '../assets/pictures/toys/spitfire-mk-ixb.JPG'
 import gazM20Cabriolet from '../assets/pictures/toys/gaz-m20-cabriolet.jpg'
 import moskvitch400422 from '../assets/pictures/toys/moskvich-400-422.JPG'
 import moskvitch407 from '../assets/pictures/toys/moskvich-407.JPG'
+import ladaXray from '../assets/pictures/toys/lada-xray.jpg'
 
 export const toys = [
 	{
@@ -2068,5 +2069,15 @@ export const toys = [
 		year: 1958,
 		brand: 'МЗМА',
 		description: "Производился с 1958 по 1963. Выпущено 359 980 штук. Является усовершенствованной версией Москвича 402, с модернизированным верхнеклапанным двигателем и улучшенной отделкой. Несколько лет подряд более 50 % выпуска «Москвичей-407» уходило на экспорт, как в социалистические, так и в развитые капиталистические страны — Францию, Бельгию, Скандинавию, Финляндию, Англию и другие."
+	},
+	{
+		id: 191,
+		name: 'LADA XRAY',
+		imgFileName: ladaXray,
+		category: 'B-native',
+		subcategory: 'Lada',
+		year: 2015,
+		brand: 'ВАЗ',
+		description: "Производился с 2015 по 2022. "
 	}
 ]
