@@ -187,6 +187,8 @@ import gazM20Cabriolet from '../assets/pictures/toys/gaz-m20-cabriolet.jpg'
 import moskvitch400422 from '../assets/pictures/toys/moskvich-400-422.JPG'
 import moskvitch407 from '../assets/pictures/toys/moskvich-407.JPG'
 import ladaXray from '../assets/pictures/toys/lada-xray.jpg'
+import jaguarXK140 from '../assets/pictures/toys/jaguar-xk140.png'
+import volvoV70 from '../assets/pictures/toys/volvo-v70.png'
 
 export const toys = [
 	{
@@ -2079,5 +2081,25 @@ export const toys = [
 		year: 2015,
 		brand: 'ВАЗ',
 		description: "Производился с 2015 по 2022. "
+	},
+	{
+		id: 192,
+		name: 'Jaguar XK140',
+		imgFileName: jaguarXK140,
+		category: 'B-foreign',
+		subcategory: 'B',
+		year: 1954,
+		brand: 'Jaguar',
+		description: "Производился с 1954 по 1957. Двигатель объемом 3,4л, мощностью 210 л.с. На багажнике висит шильдик: Победитель Ле-Мана 1951"
+	},
+	{
+		id: 193,
+		name: 'Volvo V70',
+		imgFileName: volvoV70,
+		category: 'B-foreign',
+		subcategory: 'B',
+		year: 1996,
+		brand: 'Volvo',
+		description: "Производился с 1996 по 2000. Первое поколение. "
 	}
 ]
