@@ -189,6 +189,7 @@ import moskvitch407 from '../assets/pictures/toys/moskvich-407.JPG'
 import ladaXray from '../assets/pictures/toys/lada-xray.jpg'
 import jaguarXK140 from '../assets/pictures/toys/jaguar-xk140.png'
 import volvoV70 from '../assets/pictures/toys/volvo-v70.png'
+import bmwz8 from '../assets/pictures/toys/bmwz8.JPG'
 
 export const toys = [
 	{
@@ -2101,5 +2102,15 @@ export const toys = [
 		year: 1996,
 		brand: 'Volvo',
 		description: "Производился с 1996 по 2000. Первое поколение. "
+	},
+	{
+		id: 194,
+		name: 'BMW Z8',
+		imgFileName: bmwz8,
+		category: 'B-foreign',
+		subcategory: 'B',
+		year: 1998,
+		brand: 'BMW',
+		description: "Производилась с 1998 по 2003. Машина приобрела популярность благодаря фильму о Джеймсе Бонде. Алюминиевый кузов, 4.9 литра, 400 лосей"
 	}
 ]
