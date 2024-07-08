@@ -190,7 +190,7 @@ import ladaXray from '../assets/pictures/toys/lada-xray.jpg'
 import jaguarXK140 from '../assets/pictures/toys/jaguar-xk140.png'
 import volvoV70 from '../assets/pictures/toys/volvo-v70.png'
 import bmwz8 from '../assets/pictures/toys/bmwz8.JPG'
-import ks1562b53 from '../assets/pictures/toys/ks-1562b-(53).JPG'
+import ks1562b53 from '../assets/pictures/toys/ks-1562b-(53).jpg'
 
 export const toys = [
 	{
