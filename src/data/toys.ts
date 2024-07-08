@@ -190,6 +190,7 @@ import ladaXray from '../assets/pictures/toys/lada-xray.jpg'
 import jaguarXK140 from '../assets/pictures/toys/jaguar-xk140.png'
 import volvoV70 from '../assets/pictures/toys/volvo-v70.png'
 import bmwz8 from '../assets/pictures/toys/bmwz8.JPG'
+import ks1562b53 from '../assets/pictures/toys/ks-1562b-(53).JPG'
 
 export const toys = [
 	{
@@ -2112,5 +2113,15 @@ export const toys = [
 		year: 1998,
 		brand: 'BMW',
 		description: "Производилась с 1998 по 2003. Машина приобрела популярность благодаря фильму о Джеймсе Бонде. Алюминиевый кузов, 4.9 литра, 400 лосей"
+	},
+	{
+		id: 195,
+		name: 'КС-1562Б (53)',
+		imgFileName: ks1562b53,
+		category: 'C-native',
+		subcategory: 'C',
+		year: 1961,
+		brand: 'ГАЗ',
+		description: "Стреловой кран на базе ГАЗ-53"
 	}
 ]
